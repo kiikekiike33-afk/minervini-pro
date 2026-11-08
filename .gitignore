@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# 仮想環境
+venv/
+.venv/
+env/
+ENV/
+
+# データベース・ローカルデータ（機密・大容量ファイル）
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.db-wal
+*.db-shm
+
+# 機密情報・APIキー・設定
+.env
+.env.*
+*config*.json
+*secret*
+*api_key*
+
+# ログ
+*.log
+
+# OS・エディタ
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# 作業スクラッチ
+scratch/

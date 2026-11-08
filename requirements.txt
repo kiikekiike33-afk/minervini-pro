@@ -1,0 +1,11 @@
+streamlit
+pandas
+yfinance
+plotly
+jpholiday
+requests
+openpyxl
+xlrd
+duckduckgo-search
+google-genai
+tenacity
