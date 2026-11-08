@@ -23,14 +23,14 @@ def fetch_all_tse_stocks() -> dict[str, str]:
     JPXの公開Excelファイルから全上場銘柄（ETF/REIT等を除く）を取得し、
     {ティッカーコード: 銘柄名} の辞書で返す。
     """
-    url = "https://www.jpx.co.jp/markets/statistics-equities/misc/tvdivq0000001vg2-att/data_j.xls"
+    url = "https://www.jpx.co.jp/markets/statistics-equities/misc/tvdivq0000001vg2-att/data_j.xlsx"
     logger.info("JPXから上場企業リストをダウンロード中...")
 
     try:
         response = requests.get(url, headers={"User-Agent": "Mozilla/5.0"}, timeout=60)
         response.raise_for_status()
 
-        with tempfile.NamedTemporaryFile(suffix=".xls", delete=False) as tmp:
+        with tempfile.NamedTemporaryFile(suffix=".xlsx", delete=False) as tmp:
             tmp.write(response.content)
             tmp_path = tmp.name
 
