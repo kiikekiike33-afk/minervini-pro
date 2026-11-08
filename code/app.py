@@ -401,8 +401,8 @@ st.markdown("<br>", unsafe_allow_html=True)
 # ========================================
 # 4タブ構成
 # ========================================
-tab_data, tab_cal, tab_chart, tab_insights = st.tabs([
-    "🏠 ダッシュボード", "📅 カレンダー", "📈 チャート", "🤖 AI分析"
+tab_data, tab_cal, tab_chart, tab_insights, tab_adv = st.tabs([
+    "🏠 ダッシュボード", "📅 カレンダー", "📈 チャート", "🤖 AI分析", "🎯 高度スクリーニング"
 ])
 
 # ========================================
@@ -614,3 +614,110 @@ with tab_cal:
             """, unsafe_allow_html=True)
 
 
+
+
+# ========================================
+# Tab 5: 高度スクリーニング (第2段階)
+# ========================================
+with tab_adv:
+    st.subheader("🎯 高度スクリーニング（全銘柄・グレード評価）")
+    st.caption(
+        "全上場銘柄にトレンドテンプレート全項目・IBD式加重RS（全銘柄パーセンタイル）・"
+        "ベースの質・簡易ファンダを適用した第2段階評価です。"
+        "ファンダ数値は集計サイトの速報値で、一次資料による検証はしていません。"
+    )
+
+    import json as _json
+    from results_io import find_data_dir as _find_data_dir
+
+    _base = _find_data_dir()
+    _adv = None
+    if _base is not None and (_base / "advanced_latest.json").is_file():
+        try:
+            _adv = _json.loads((_base / "advanced_latest.json").read_text(encoding="utf-8"))
+        except Exception:
+            _adv = None
+
+    if not _adv:
+        st.info("高度スクリーニングのデータがまだありません。日次バッチの実行後に表示されます。")
+    else:
+        _regime = _adv.get("regime", {})
+        _cands = _adv.get("candidates", [])
+        r1, r2, r3, r4 = st.columns(4)
+        r1.metric("🌡 地合い判定", _regime.get("label", "—"),
+                  f"対象 {_regime.get('stocks', 0)} 銘柄")
+        r2.metric("150/200日線超え", f"{_regime.get('above_ma_pct', 0)}%")
+        r3.metric("加重リターン中央値", f"{_regime.get('median_wret_pct', 0):+}%")
+        r4.metric("候補銘柄数", f"{len(_cands)} 銘柄", f"基準日 {_adv.get('date')}")
+
+        _sectors = _adv.get("sectors", [])
+        if _sectors:
+            st.markdown("##### 🏭 業種別の候補分布（上位）")
+            st.dataframe(
+                pd.DataFrame(_sectors).rename(columns={
+                    "sector": "業種", "count": "候補数", "s_count": "S評価", "avg_score": "平均スコア",
+                }),
+                use_container_width=True, hide_index=True,
+            )
+
+        if _cands:
+            st.markdown("##### 🏆 候補スコアカード（上位60件）")
+            _rows = []
+            for c in _cands[:60]:
+                _rows.append({
+                    "評価": c.get("grade"),
+                    "スコア": c.get("score"),
+                    "コード": str(c.get("ticker", "")).replace(".T", ""),
+                    "銘柄名": c.get("name"),
+                    "業種": c.get("sector", ""),
+                    "種別": c.get("type"),
+                    "株価": c.get("price"),
+                    "TT": f"{c.get('tt_pass')}/7",
+                    "RS%": c.get("rs_pct"),
+                    "ピボット": c.get("pivot_price"),
+                    "損切り": c.get("stop_price"),
+                    "高値まで": c.get("dist_high_pct"),
+                    "EPS増%": c.get("eps_growth_q"),
+                    "ROE%": c.get("roe"),
+                    "次回決算": c.get("next_earnings") or "—",
+                })
+            st.dataframe(
+                pd.DataFrame(_rows),
+                use_container_width=True, hide_index=True,
+                column_config={
+                    "スコア": st.column_config.NumberColumn(format="%.0f"),
+                    "株価": st.column_config.NumberColumn(format="¥%.0f"),
+                    "ピボット": st.column_config.NumberColumn(format="¥%.0f"),
+                    "損切り": st.column_config.NumberColumn(format="¥%.0f"),
+                    "RS%": st.column_config.NumberColumn(format="%.0f"),
+                    "高値まで": st.column_config.NumberColumn(format="%.1f%%"),
+                    "EPS増%": st.column_config.NumberColumn(format="%.0f%%"),
+                    "ROE%": st.column_config.NumberColumn(format="%.0f%%"),
+                },
+            )
+
+        # 事後検証サマリー (outcomes.json)
+        if _base is not None and (_base / "outcomes.json").is_file():
+            try:
+                _outcomes = _json.loads((_base / "outcomes.json").read_text(encoding="utf-8"))
+                _picks = _outcomes.get("picks", [])
+                _matured = [p for p in _picks if p.get("ret_20d") is not None]
+                _m5 = [p for p in _picks if p.get("ret_5d") is not None]
+                st.markdown("##### 🔬 事後検証（抽出後の成績）")
+                if _m5 or _matured:
+                    _sum_rows = []
+                    for _label, _grp, _key in (("5営業日後", _m5, "ret_5d"), ("20営業日後", _matured, "ret_20d")):
+                        if not _grp:
+                            continue
+                        _rets = [p[_key] for p in _grp]
+                        _wins = sum(1 for r in _rets if r > 0)
+                        _sum_rows.append({
+                            "期間": _label, "件数": len(_rets),
+                            "勝率": f"{_wins / len(_rets) * 100:.0f}%",
+                            "平均リターン": f"{sum(_rets) / len(_rets):+.2f}%",
+                        })
+                    st.dataframe(pd.DataFrame(_sum_rows), use_container_width=True, hide_index=True)
+                else:
+                    st.caption(f"追跡中の候補は {len(_picks)} 件。5営業日経過後に成績が表示されます。")
+            except Exception:
+                pass
