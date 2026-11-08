@@ -44,6 +44,14 @@ def main():
     except Exception as e:
         logger.warning(f"結果JSONの書き出しに失敗: {e}")
 
+    # 高度スクリーニング (第2段階): 地合い判定・全銘柄RS・グレード付け・
+    # 事後検証トラッキング。失敗しても日次バッチ全体は止めない。
+    try:
+        from advanced_screen import run_advanced_screening
+        run_advanced_screening(today.isoformat())
+    except Exception as e:
+        logger.warning(f"高度スクリーニングに失敗: {e}")
+
     elapsed = time.time() - start
     logger.info(f"=== 完了: {len(results)} 銘柄 ({elapsed/60:.1f}分) ===")
 
