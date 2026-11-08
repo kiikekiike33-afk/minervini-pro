@@ -11,7 +11,8 @@ import logging
 import time
 
 from data_fetcher import is_business_day
-from db_manager import init_db
+from db_manager import init_db, get_stocks_by_date
+from results_io import export_results
 from screener import run_full_screening
 
 logging.basicConfig(
@@ -35,6 +36,14 @@ def main():
     init_db()
     results = run_full_screening(today)
 
+    # 結果をリポジトリの data/ にJSONでも書き出す (GitHub経由で共有するため)。
+    # DB保存済みの行を正として書き出す。0件の日も「実行した」記録として残す。
+    try:
+        rows = get_stocks_by_date(today.isoformat())
+        export_results(rows, today.isoformat())
+    except Exception as e:
+        logger.warning(f"結果JSONの書き出しに失敗: {e}")
+
     elapsed = time.time() - start
     logger.info(f"=== 完了: {len(results)} 銘柄 ({elapsed/60:.1f}分) ===")
 
@@ -45,9 +54,8 @@ def main():
         df["SMA20乖離率(%)"] = df["sma20_diff"].map(lambda x: f"{x:+.1f}%")
         df["RSI(14)"] = df["rsi14"].map(lambda x: f"{x:.1f}")
         df["RS(%)"] = (df["rs_outperform"] * 100).map(lambda x: f"{x:+.1f}%")
-        df["カップ深さ(%)"] = df["cup_depth"].map(lambda x: f"{x:.1f}%")
-        df["高値乖離(%)"] = df["recovery"].map(lambda x: f"{x:.1f}%")
-        disp_df = df[["code", "name", "close_price", "カップ深さ(%)", "高値乖離(%)", "SMA20乖離率(%)", "RSI(14)", "RS(%)"]]
+        df["高値乖離(%)"] = (df["diff_52w_high"] * 100).map(lambda x: f"{x:.1f}%")
+        disp_df = df[["code", "name", "close_price", "高値乖離(%)", "SMA20乖離率(%)", "RSI(14)", "RS(%)"]]
         print("\n【CWH/VCP スクリーニング通過銘柄 サマリー】")
         print(disp_df.to_string(index=False))
 
