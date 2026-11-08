@@ -7,9 +7,15 @@
 # ============================================
 
 import logging
+import os
 import time
-import winreg
 from typing import Any
+
+# Windowsレジストリ（Linux/Streamlit Cloud環境では存在しないため安全にフォールバック）
+try:
+    import winreg
+except ImportError:
+    winreg = None
 
 from duckduckgo_search import DDGS
 from google import genai
@@ -30,6 +36,9 @@ def get_api_key_from_registry() -> str:
     setx で設定した値はここに保存されているため、
     プロセスの環境変数に依存せず確実に取得できる。
     """
+    if winreg is None:
+        return ""
+
     try:
         key_handle = winreg.OpenKey(
             winreg.HKEY_CURRENT_USER, "Environment"
@@ -48,19 +57,27 @@ def resolve_api_key(user_input: str = "") -> str:
     """
     APIキーの解決優先順位:
     1. ユーザーがUI上で入力した値
-    2. Windowsレジストリ（setxで設定された値）
-    3. 環境変数 GEMINI_API_KEY
+    2. Streamlit Secrets (GEMINI_API_KEY)
+    3. Windowsレジストリ（setxで設定された値）
+    4. 環境変数 GEMINI_API_KEY
     """
     if user_input and user_input.strip():
         return user_input.strip()
 
-    # レジストリから直接読み取り
+    # Streamlit Cloud の Secrets からの取得
+    try:
+        import streamlit as st
+        if "GEMINI_API_KEY" in st.secrets:
+            return str(st.secrets["GEMINI_API_KEY"]).strip()
+    except Exception:
+        pass
+
+    # レジストリから直接読み取り (Windows)
     registry_key = get_api_key_from_registry()
     if registry_key:
         return registry_key
 
     # フォールバック: プロセスの環境変数
-    import os
     return os.environ.get("GEMINI_API_KEY", "")
 
 
