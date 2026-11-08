@@ -198,6 +198,38 @@ def get_ai_report(code: str, date: str) -> dict | None:
         return None
 
 
+def import_bundled_results() -> int:
+    """
+    リポジトリ同梱の結果JSON (data/history/*.json, data/latest.json) を
+    DBにまだ無い日付について取り込む。Streamlit Cloud のように
+    DBファイルが残らない環境で、コミット済み結果を表示するための入口。
+    既にDBにある日付 (画面から実行した結果など) は上書きしない。
+    戻り値: 取り込んだ行数。
+    """
+    try:
+        from results_io import load_bundled_results
+        by_date = load_bundled_results()
+    except Exception as e:
+        logger.warning(f"同梱結果の読込に失敗: {e}")
+        return 0
+
+    if not by_date:
+        return 0
+
+    existing = set(get_available_dates())
+    imported = 0
+    for date_str in sorted(by_date):
+        if date_str in existing:
+            continue
+        rows = by_date[date_str]
+        if not rows:
+            continue
+        imported += save_screening_results(rows, date_str)
+    if imported:
+        logger.info(f"同梱JSONから {imported} 件を取り込みました。")
+    return imported
+
+
 def get_ai_reports_by_date(date: str) -> dict[str, dict]:
     """指定日の全AIレポートをコード→レポートの辞書で返す"""
     try:
