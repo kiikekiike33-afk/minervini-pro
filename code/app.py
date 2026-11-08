@@ -14,7 +14,7 @@ import time
 
 from db_manager import (
     init_db, get_available_dates, get_stocks_by_date,
-    get_ai_reports_by_date, save_ai_report
+    get_ai_reports_by_date, save_ai_report, import_bundled_results
 )
 from data_fetcher import fetch_stock_history
 from ai_analyzer import resolve_api_key, generate_ai_report
@@ -186,6 +186,12 @@ st.markdown("""
 # DB初期化
 # ========================================
 init_db()
+# リポジトリ同梱の結果JSON (data/) があれば、DBに無い日付を取り込む。
+# Streamlit Cloud は DB が揮発性のため、コミット済みJSONが表示の正になる。
+try:
+    import_bundled_results()
+except Exception:
+    pass
 
 # ========================================
 # サイドバー
