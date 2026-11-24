@@ -1,0 +1,29 @@
+{
+ "date": "2026-11-24",
+ "results": [
+  {
+   "id": 1,
+   "date": "2026-11-24",
+   "code": "7951.T",
+   "name": "ヤマハ",
+   "close_price": 1418.0,
+   "sma50": 1250.4535400390625,
+   "sma150": 1206.914520670573,
+   "sma200": 1188.1677172851562,
+   "diff_52w_high": -0.0031634446397188487,
+   "market_cap": null,
+   "rs_outperform": 0.1995772305777772,
+   "avg_turnover": 4371486030.0,
+   "sma20_diff": 9.922480620155039,
+   "rsi14": 69.79179982592368,
+   "cup_depth": null,
+   "recovery": null,
+   "vcp_contraction": 30.1774604184287,
+   "breakout_vol_ratio": 1.751082672358305,
+   "signal_type": "VOL_BREAKOUT",
+   "forward_eps": 76.29,
+   "operating_cf": 56262000640.0,
+   "comment": "🔥 52週高値に迫る / ⏰ 約3ヶ月ぶり / 📈 出来高1.8倍 / 📊 RS良好"
+  }
+ ]
+}
