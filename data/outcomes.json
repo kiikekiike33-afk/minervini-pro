@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24",
+ "updated": "2026-11-25",
  "picks": [
   {
    "date": "2026-11-06",
@@ -20084,7 +20084,7 @@
    "type": "ベース形成",
    "score": 80.6,
    "entry_price": 1548.0,
-   "ret_5d": null,
+   "ret_5d": -0.52,
    "ret_20d": null
   },
   {
@@ -20095,7 +20095,7 @@
    "type": "ベース形成",
    "score": 79.7,
    "entry_price": 2431.0,
-   "ret_5d": null,
+   "ret_5d": 0.04,
    "ret_20d": null
   },
   {
@@ -20106,7 +20106,7 @@
    "type": "ブレイク",
    "score": 76.2,
    "entry_price": 1416.0,
-   "ret_5d": null,
+   "ret_5d": 1.13,
    "ret_20d": null
   },
   {
@@ -20117,7 +20117,7 @@
    "type": "ベース形成",
    "score": 76.0,
    "entry_price": 2939.0,
-   "ret_5d": null,
+   "ret_5d": 0.03,
    "ret_20d": null
   },
   {
@@ -20128,7 +20128,7 @@
    "type": "ブレイク",
    "score": 76.0,
    "entry_price": 1195.0,
-   "ret_5d": null,
+   "ret_5d": 3.68,
    "ret_20d": null
   },
   {
@@ -20139,7 +20139,7 @@
    "type": "ブレイク",
    "score": 75.9,
    "entry_price": 4490.0,
-   "ret_5d": null,
+   "ret_5d": -6.9,
    "ret_20d": null
   },
   {
@@ -20150,7 +20150,7 @@
    "type": "ベース形成",
    "score": 74.4,
    "entry_price": 3100.0,
-   "ret_5d": null,
+   "ret_5d": 1.61,
    "ret_20d": null
   },
   {
@@ -20161,7 +20161,7 @@
    "type": "ベース形成",
    "score": 74.0,
    "entry_price": 723.0,
-   "ret_5d": null,
+   "ret_5d": 2.49,
    "ret_20d": null
   },
   {
@@ -20172,7 +20172,7 @@
    "type": "ブレイク",
    "score": 73.6,
    "entry_price": 4505.0,
-   "ret_5d": null,
+   "ret_5d": -3.0,
    "ret_20d": null
   },
   {
@@ -20183,7 +20183,7 @@
    "type": "ブレイク",
    "score": 72.9,
    "entry_price": 2438.0,
-   "ret_5d": null,
+   "ret_5d": -2.95,
    "ret_20d": null
   },
   {
@@ -20194,7 +20194,7 @@
    "type": "ベース形成",
    "score": 72.6,
    "entry_price": 2509.0,
-   "ret_5d": null,
+   "ret_5d": -0.52,
    "ret_20d": null
   },
   {
@@ -20205,7 +20205,7 @@
    "type": "ベース形成",
    "score": 71.7,
    "entry_price": 3430.0,
-   "ret_5d": null,
+   "ret_5d": -0.17,
    "ret_20d": null
   },
   {
@@ -20216,7 +20216,7 @@
    "type": "ブレイク",
    "score": 70.9,
    "entry_price": 2389.0,
-   "ret_5d": null,
+   "ret_5d": -1.26,
    "ret_20d": null
   },
   {
@@ -20227,7 +20227,7 @@
    "type": "ベース形成",
    "score": 70.8,
    "entry_price": 2950.0,
-   "ret_5d": null,
+   "ret_5d": 5.25,
    "ret_20d": null
   },
   {
@@ -20238,7 +20238,7 @@
    "type": "ベース形成",
    "score": 70.6,
    "entry_price": 799.9000244140625,
-   "ret_5d": null,
+   "ret_5d": 2.5,
    "ret_20d": null
   },
   {
@@ -20249,7 +20249,7 @@
    "type": "ベース形成",
    "score": 70.6,
    "entry_price": 4425.0,
-   "ret_5d": null,
+   "ret_5d": 1.69,
    "ret_20d": null
   },
   {
@@ -20260,7 +20260,7 @@
    "type": "ベース形成",
    "score": 70.4,
    "entry_price": 2876.0,
-   "ret_5d": null,
+   "ret_5d": 0.14,
    "ret_20d": null
   },
   {
@@ -20271,7 +20271,7 @@
    "type": "ベース形成",
    "score": 70.2,
    "entry_price": 3736.0,
-   "ret_5d": null,
+   "ret_5d": 0.11,
    "ret_20d": null
   },
   {
@@ -20282,7 +20282,7 @@
    "type": "ブレイク",
    "score": 70.1,
    "entry_price": 1846.5,
-   "ret_5d": null,
+   "ret_5d": -4.33,
    "ret_20d": null
   },
   {
@@ -20293,7 +20293,7 @@
    "type": "ブレイク",
    "score": 70.0,
    "entry_price": 6335.0,
-   "ret_5d": null,
+   "ret_5d": -4.4,
    "ret_20d": null
   },
   {
@@ -20304,7 +20304,7 @@
    "type": "ベース形成",
    "score": 70.0,
    "entry_price": 7025.0,
-   "ret_5d": null,
+   "ret_5d": -0.38,
    "ret_20d": null
   },
   {
@@ -20315,7 +20315,7 @@
    "type": "ベース形成",
    "score": 69.7,
    "entry_price": 5202.0,
-   "ret_5d": null,
+   "ret_5d": 5.02,
    "ret_20d": null
   },
   {
@@ -20326,7 +20326,7 @@
    "type": "ベース形成",
    "score": 69.4,
    "entry_price": 1567.0,
-   "ret_5d": null,
+   "ret_5d": -2.04,
    "ret_20d": null
   },
   {
@@ -20337,7 +20337,7 @@
    "type": "ブレイク",
    "score": 69.2,
    "entry_price": 1496.0,
-   "ret_5d": null,
+   "ret_5d": -5.95,
    "ret_20d": null
   },
   {
@@ -20348,7 +20348,7 @@
    "type": "ブレイク",
    "score": 69.0,
    "entry_price": 3885.0,
-   "ret_5d": null,
+   "ret_5d": -10.3,
    "ret_20d": null
   },
   {
@@ -20359,7 +20359,7 @@
    "type": "ブレイク",
    "score": 68.7,
    "entry_price": 4395.0,
-   "ret_5d": null,
+   "ret_5d": 1.93,
    "ret_20d": null
   },
   {
@@ -20370,7 +20370,7 @@
    "type": "ベース形成",
    "score": 68.7,
    "entry_price": 1962.0,
-   "ret_5d": null,
+   "ret_5d": -3.24,
    "ret_20d": null
   },
   {
@@ -20381,7 +20381,7 @@
    "type": "ブレイク",
    "score": 68.5,
    "entry_price": 4400.0,
-   "ret_5d": null,
+   "ret_5d": 0.68,
    "ret_20d": null
   },
   {
@@ -20392,7 +20392,7 @@
    "type": "ベース形成",
    "score": 68.4,
    "entry_price": 10540.0,
-   "ret_5d": null,
+   "ret_5d": 0.09,
    "ret_20d": null
   },
   {
@@ -20403,7 +20403,7 @@
    "type": "ブレイク",
    "score": 68.3,
    "entry_price": 4420.0,
-   "ret_5d": null,
+   "ret_5d": -0.79,
    "ret_20d": null
   },
   {
@@ -20414,7 +20414,7 @@
    "type": "ブレイク",
    "score": 68.0,
    "entry_price": 1426.0,
-   "ret_5d": null,
+   "ret_5d": 2.14,
    "ret_20d": null
   },
   {
@@ -20425,7 +20425,7 @@
    "type": "ブレイク",
    "score": 68.0,
    "entry_price": 3795.0,
-   "ret_5d": null,
+   "ret_5d": 1.19,
    "ret_20d": null
   },
   {
@@ -20436,7 +20436,7 @@
    "type": "ベース形成",
    "score": 68.0,
    "entry_price": 988.0,
-   "ret_5d": null,
+   "ret_5d": 0.1,
    "ret_20d": null
   },
   {
@@ -20447,7 +20447,7 @@
    "type": "ベース形成",
    "score": 67.8,
    "entry_price": 3125.0,
-   "ret_5d": null,
+   "ret_5d": -2.4,
    "ret_20d": null
   },
   {
@@ -20458,7 +20458,7 @@
    "type": "ブレイク",
    "score": 67.7,
    "entry_price": 4612.0,
-   "ret_5d": null,
+   "ret_5d": 4.66,
    "ret_20d": null
   },
   {
@@ -20469,7 +20469,7 @@
    "type": "ブレイク",
    "score": 67.5,
    "entry_price": 1324.5,
-   "ret_5d": null,
+   "ret_5d": 1.09,
    "ret_20d": null
   },
   {
@@ -20480,7 +20480,7 @@
    "type": "ベース形成",
    "score": 67.5,
    "entry_price": 3095.0,
-   "ret_5d": null,
+   "ret_5d": -8.34,
    "ret_20d": null
   },
   {
@@ -20491,7 +20491,7 @@
    "type": "ブレイク",
    "score": 66.9,
    "entry_price": 513.0,
-   "ret_5d": null,
+   "ret_5d": -5.07,
    "ret_20d": null
   },
   {
@@ -20502,7 +20502,7 @@
    "type": "ベース形成",
    "score": 66.9,
    "entry_price": 5710.0,
-   "ret_5d": null,
+   "ret_5d": -3.33,
    "ret_20d": null
   },
   {
@@ -20513,7 +20513,7 @@
    "type": "ブレイク",
    "score": 66.8,
    "entry_price": 2446.0,
-   "ret_5d": null,
+   "ret_5d": -5.11,
    "ret_20d": null
   },
   {
@@ -20524,7 +20524,7 @@
    "type": "ベース形成",
    "score": 66.8,
    "entry_price": 4100.0,
-   "ret_5d": null,
+   "ret_5d": 0.37,
    "ret_20d": null
   },
   {
@@ -20535,7 +20535,7 @@
    "type": "ベース形成",
    "score": 66.7,
    "entry_price": 2359.0,
-   "ret_5d": null,
+   "ret_5d": -2.16,
    "ret_20d": null
   },
   {
@@ -20546,7 +20546,7 @@
    "type": "ベース形成",
    "score": 66.5,
    "entry_price": 584.0999755859375,
-   "ret_5d": null,
+   "ret_5d": 2.31,
    "ret_20d": null
   },
   {
@@ -20557,7 +20557,7 @@
    "type": "ブレイク",
    "score": 66.4,
    "entry_price": 3720.0,
-   "ret_5d": null,
+   "ret_5d": -1.91,
    "ret_20d": null
   },
   {
@@ -20568,7 +20568,7 @@
    "type": "ベース形成",
    "score": 66.2,
    "entry_price": 4090.0,
-   "ret_5d": null,
+   "ret_5d": 2.08,
    "ret_20d": null
   },
   {
@@ -20579,7 +20579,7 @@
    "type": "ベース形成",
    "score": 65.8,
    "entry_price": 12475.0,
-   "ret_5d": null,
+   "ret_5d": 5.25,
    "ret_20d": null
   },
   {
@@ -20590,7 +20590,7 @@
    "type": "ベース形成",
    "score": 65.8,
    "entry_price": 3355.0,
-   "ret_5d": null,
+   "ret_5d": 4.77,
    "ret_20d": null
   },
   {
@@ -20601,7 +20601,7 @@
    "type": "ベース形成",
    "score": 65.6,
    "entry_price": 2915.0,
-   "ret_5d": null,
+   "ret_5d": -0.79,
    "ret_20d": null
   },
   {
@@ -20612,7 +20612,7 @@
    "type": "ブレイク",
    "score": 65.6,
    "entry_price": 3954.0,
-   "ret_5d": null,
+   "ret_5d": -0.4,
    "ret_20d": null
   },
   {
@@ -20623,7 +20623,7 @@
    "type": "ベース形成",
    "score": 65.5,
    "entry_price": 1079.0,
-   "ret_5d": null,
+   "ret_5d": 0.83,
    "ret_20d": null
   },
   {
@@ -20634,7 +20634,7 @@
    "type": "ベース形成",
    "score": 65.3,
    "entry_price": 295.8999938964844,
-   "ret_5d": null,
+   "ret_5d": -3.14,
    "ret_20d": null
   },
   {
@@ -20645,7 +20645,7 @@
    "type": "ベース形成",
    "score": 65.0,
    "entry_price": 2359.0,
-   "ret_5d": null,
+   "ret_5d": -1.7,
    "ret_20d": null
   },
   {
@@ -20656,7 +20656,7 @@
    "type": "ベース形成",
    "score": 65.0,
    "entry_price": 1731.0,
-   "ret_5d": null,
+   "ret_5d": -7.68,
    "ret_20d": null
   },
   {
@@ -20667,7 +20667,7 @@
    "type": "ベース形成",
    "score": 64.9,
    "entry_price": 7360.0,
-   "ret_5d": null,
+   "ret_5d": -15.08,
    "ret_20d": null
   },
   {
@@ -20678,7 +20678,7 @@
    "type": "ブレイク",
    "score": 64.9,
    "entry_price": 3587.0,
-   "ret_5d": null,
+   "ret_5d": 2.59,
    "ret_20d": null
   },
   {
@@ -20689,7 +20689,7 @@
    "type": "ブレイク",
    "score": 64.9,
    "entry_price": 1459.0,
-   "ret_5d": null,
+   "ret_5d": 0.0,
    "ret_20d": null
   },
   {
@@ -20700,7 +20700,7 @@
    "type": "ベース形成",
    "score": 64.8,
    "entry_price": 3525.0,
-   "ret_5d": null,
+   "ret_5d": -1.13,
    "ret_20d": null
   },
   {
@@ -20711,7 +20711,7 @@
    "type": "ベース形成",
    "score": 64.7,
    "entry_price": 7260.0,
-   "ret_5d": null,
+   "ret_5d": -9.72,
    "ret_20d": null
   },
   {
@@ -20722,7 +20722,7 @@
    "type": "ベース形成",
    "score": 64.5,
    "entry_price": 5888.0,
-   "ret_5d": null,
+   "ret_5d": -3.19,
    "ret_20d": null
   },
   {
@@ -20733,7 +20733,7 @@
    "type": "ベース形成",
    "score": 64.5,
    "entry_price": 3441.0,
-   "ret_5d": null,
+   "ret_5d": -4.33,
    "ret_20d": null
   },
   {
@@ -20744,7 +20744,7 @@
    "type": "ベース形成",
    "score": 64.3,
    "entry_price": 1089.0,
-   "ret_5d": null,
+   "ret_5d": -4.41,
    "ret_20d": null
   },
   {
@@ -20755,7 +20755,7 @@
    "type": "ブレイク",
    "score": 64.2,
    "entry_price": 2366.0,
-   "ret_5d": null,
+   "ret_5d": 3.47,
    "ret_20d": null
   },
   {
@@ -20766,7 +20766,7 @@
    "type": "ベース形成",
    "score": 64.2,
    "entry_price": 2538.0,
-   "ret_5d": null,
+   "ret_5d": -8.0,
    "ret_20d": null
   },
   {
@@ -20777,7 +20777,7 @@
    "type": "ベース形成",
    "score": 64.2,
    "entry_price": 3535.0,
-   "ret_5d": null,
+   "ret_5d": 2.83,
    "ret_20d": null
   },
   {
@@ -20788,7 +20788,7 @@
    "type": "ベース形成",
    "score": 64.1,
    "entry_price": 1330.0,
-   "ret_5d": null,
+   "ret_5d": -1.05,
    "ret_20d": null
   },
   {
@@ -20799,7 +20799,7 @@
    "type": "ベース形成",
    "score": 64.1,
    "entry_price": 2023.0,
-   "ret_5d": null,
+   "ret_5d": -3.11,
    "ret_20d": null
   },
   {
@@ -20810,7 +20810,7 @@
    "type": "ベース形成",
    "score": 64.0,
    "entry_price": 2533.0,
-   "ret_5d": null,
+   "ret_5d": -4.42,
    "ret_20d": null
   },
   {
@@ -20821,7 +20821,7 @@
    "type": "ベース形成",
    "score": 64.0,
    "entry_price": 2204.0,
-   "ret_5d": null,
+   "ret_5d": -0.52,
    "ret_20d": null
   },
   {
@@ -20832,7 +20832,7 @@
    "type": "ブレイク",
    "score": 64.0,
    "entry_price": 3490.0,
-   "ret_5d": null,
+   "ret_5d": -12.46,
    "ret_20d": null
   },
   {
@@ -20843,7 +20843,7 @@
    "type": "ベース形成",
    "score": 63.9,
    "entry_price": 2125.0,
-   "ret_5d": null,
+   "ret_5d": -6.16,
    "ret_20d": null
   },
   {
@@ -20854,7 +20854,7 @@
    "type": "ベース形成",
    "score": 63.8,
    "entry_price": 1949.0,
-   "ret_5d": null,
+   "ret_5d": 1.59,
    "ret_20d": null
   },
   {
@@ -20865,7 +20865,7 @@
    "type": "ベース形成",
    "score": 63.6,
    "entry_price": 5080.0,
-   "ret_5d": null,
+   "ret_5d": -5.91,
    "ret_20d": null
   },
   {
@@ -20876,7 +20876,7 @@
    "type": "ベース形成",
    "score": 63.5,
    "entry_price": 1277.5,
-   "ret_5d": null,
+   "ret_5d": -4.81,
    "ret_20d": null
   },
   {
@@ -20887,7 +20887,7 @@
    "type": "ベース形成",
    "score": 63.4,
    "entry_price": 10420.0,
-   "ret_5d": null,
+   "ret_5d": -2.02,
    "ret_20d": null
   },
   {
@@ -20898,7 +20898,7 @@
    "type": "ブレイク",
    "score": 63.4,
    "entry_price": 5588.0,
-   "ret_5d": null,
+   "ret_5d": -1.2,
    "ret_20d": null
   },
   {
@@ -20909,7 +20909,7 @@
    "type": "ベース形成",
    "score": 63.3,
    "entry_price": 4890.0,
-   "ret_5d": null,
+   "ret_5d": 0.31,
    "ret_20d": null
   },
   {
@@ -20920,7 +20920,7 @@
    "type": "ベース形成",
    "score": 63.2,
    "entry_price": 2775.0,
-   "ret_5d": null,
+   "ret_5d": -2.95,
    "ret_20d": null
   },
   {
@@ -20931,7 +20931,7 @@
    "type": "ベース形成",
    "score": 63.2,
    "entry_price": 4493.0,
-   "ret_5d": null,
+   "ret_5d": -0.53,
    "ret_20d": null
   },
   {
@@ -20942,7 +20942,7 @@
    "type": "ベース形成",
    "score": 63.1,
    "entry_price": 2654.0,
-   "ret_5d": null,
+   "ret_5d": 2.52,
    "ret_20d": null
   },
   {
@@ -20953,7 +20953,7 @@
    "type": "ベース形成",
    "score": 63.1,
    "entry_price": 7152.0,
-   "ret_5d": null,
+   "ret_5d": 1.26,
    "ret_20d": null
   },
   {
@@ -20964,7 +20964,7 @@
    "type": "ベース形成",
    "score": 63.0,
    "entry_price": 4960.0,
-   "ret_5d": null,
+   "ret_5d": -2.72,
    "ret_20d": null
   },
   {
@@ -20975,7 +20975,7 @@
    "type": "ベース形成",
    "score": 62.8,
    "entry_price": 2284.5,
-   "ret_5d": null,
+   "ret_5d": -5.36,
    "ret_20d": null
   },
   {
@@ -20986,7 +20986,7 @@
    "type": "ベース形成",
    "score": 62.8,
    "entry_price": 1797.0,
-   "ret_5d": null,
+   "ret_5d": -1.86,
    "ret_20d": null
   },
   {
@@ -20997,7 +20997,7 @@
    "type": "ベース形成",
    "score": 62.8,
    "entry_price": 7101.0,
-   "ret_5d": null,
+   "ret_5d": 6.97,
    "ret_20d": null
   },
   {
@@ -21008,7 +21008,7 @@
    "type": "ベース形成",
    "score": 62.8,
    "entry_price": 2672.0,
-   "ret_5d": null,
+   "ret_5d": -3.26,
    "ret_20d": null
   },
   {
@@ -21019,7 +21019,7 @@
    "type": "ベース形成",
    "score": 62.8,
    "entry_price": 358.20001220703125,
-   "ret_5d": null,
+   "ret_5d": -2.99,
    "ret_20d": null
   },
   {
@@ -21030,7 +21030,7 @@
    "type": "ベース形成",
    "score": 62.7,
    "entry_price": 3525.0,
-   "ret_5d": null,
+   "ret_5d": -2.13,
    "ret_20d": null
   },
   {
@@ -21041,7 +21041,7 @@
    "type": "ベース形成",
    "score": 62.5,
    "entry_price": 3420.0,
-   "ret_5d": null,
+   "ret_5d": -2.49,
    "ret_20d": null
   },
   {
@@ -21052,7 +21052,7 @@
    "type": "ベース形成",
    "score": 62.5,
    "entry_price": 2173.0,
-   "ret_5d": null,
+   "ret_5d": -1.29,
    "ret_20d": null
   },
   {
@@ -21063,7 +21063,7 @@
    "type": "ベース形成",
    "score": 62.5,
    "entry_price": 2643.0,
-   "ret_5d": null,
+   "ret_5d": -3.12,
    "ret_20d": null
   },
   {
@@ -21074,7 +21074,7 @@
    "type": "ベース形成",
    "score": 62.5,
    "entry_price": 4889.0,
-   "ret_5d": null,
+   "ret_5d": 1.25,
    "ret_20d": null
   },
   {
@@ -21085,7 +21085,7 @@
    "type": "ベース形成",
    "score": 62.4,
    "entry_price": 2783.0,
-   "ret_5d": null,
+   "ret_5d": 3.95,
    "ret_20d": null
   },
   {
@@ -21096,7 +21096,7 @@
    "type": "ベース形成",
    "score": 62.3,
    "entry_price": 2163.0,
-   "ret_5d": null,
+   "ret_5d": -4.76,
    "ret_20d": null
   },
   {
@@ -21107,7 +21107,7 @@
    "type": "ベース形成",
    "score": 62.2,
    "entry_price": 4220.0,
-   "ret_5d": null,
+   "ret_5d": -0.83,
    "ret_20d": null
   },
   {
@@ -21118,7 +21118,7 @@
    "type": "ベース形成",
    "score": 62.2,
    "entry_price": 3490.0,
-   "ret_5d": null,
+   "ret_5d": -0.29,
    "ret_20d": null
   },
   {
@@ -21129,7 +21129,7 @@
    "type": "ブレイク",
    "score": 62.0,
    "entry_price": 2024.0,
-   "ret_5d": null,
+   "ret_5d": -2.54,
    "ret_20d": null
   },
   {
@@ -21140,7 +21140,7 @@
    "type": "ベース形成",
    "score": 61.9,
    "entry_price": 3000.0,
-   "ret_5d": null,
+   "ret_5d": 3.5,
    "ret_20d": null
   },
   {
@@ -21151,7 +21151,7 @@
    "type": "ベース形成",
    "score": 61.9,
    "entry_price": 18195.0,
-   "ret_5d": null,
+   "ret_5d": -6.46,
    "ret_20d": null
   },
   {
@@ -21162,7 +21162,7 @@
    "type": "ベース形成",
    "score": 61.8,
    "entry_price": 1726.0,
-   "ret_5d": null,
+   "ret_5d": -1.85,
    "ret_20d": null
   },
   {
@@ -21173,7 +21173,7 @@
    "type": "ベース形成",
    "score": 61.7,
    "entry_price": 2973.0,
-   "ret_5d": null,
+   "ret_5d": -1.38,
    "ret_20d": null
   },
   {
@@ -21184,7 +21184,7 @@
    "type": "ベース形成",
    "score": 61.6,
    "entry_price": 2210.0,
-   "ret_5d": null,
+   "ret_5d": 1.45,
    "ret_20d": null
   },
   {
@@ -21195,7 +21195,7 @@
    "type": "ベース形成",
    "score": 61.5,
    "entry_price": 1332.5,
-   "ret_5d": null,
+   "ret_5d": 5.03,
    "ret_20d": null
   },
   {
@@ -21206,7 +21206,7 @@
    "type": "ベース形成",
    "score": 61.5,
    "entry_price": 2433.0,
-   "ret_5d": null,
+   "ret_5d": 3.88,
    "ret_20d": null
   },
   {
@@ -21217,7 +21217,7 @@
    "type": "ベース形成",
    "score": 61.4,
    "entry_price": 1752.0,
-   "ret_5d": null,
+   "ret_5d": -0.91,
    "ret_20d": null
   },
   {
@@ -21228,7 +21228,7 @@
    "type": "ブレイク",
    "score": 61.4,
    "entry_price": 4060.0,
-   "ret_5d": null,
+   "ret_5d": 0.49,
    "ret_20d": null
   },
   {
@@ -21239,7 +21239,7 @@
    "type": "ベース形成",
    "score": 61.4,
    "entry_price": 294.0,
-   "ret_5d": null,
+   "ret_5d": -0.68,
    "ret_20d": null
   },
   {
@@ -21250,7 +21250,7 @@
    "type": "ブレイク",
    "score": 61.3,
    "entry_price": 3771.0,
-   "ret_5d": null,
+   "ret_5d": -5.83,
    "ret_20d": null
   },
   {
@@ -21261,7 +21261,7 @@
    "type": "ベース形成",
    "score": 61.2,
    "entry_price": 4045.0,
-   "ret_5d": null,
+   "ret_5d": -2.4,
    "ret_20d": null
   },
   {
@@ -21272,7 +21272,7 @@
    "type": "ベース形成",
    "score": 61.2,
    "entry_price": 3800.0,
-   "ret_5d": null,
+   "ret_5d": 0.92,
    "ret_20d": null
   },
   {
@@ -21283,7 +21283,7 @@
    "type": "ベース形成",
    "score": 61.1,
    "entry_price": 5420.0,
-   "ret_5d": null,
+   "ret_5d": -2.4,
    "ret_20d": null
   },
   {
@@ -21294,7 +21294,7 @@
    "type": "ベース形成",
    "score": 61.1,
    "entry_price": 4640.0,
-   "ret_5d": null,
+   "ret_5d": 9.53,
    "ret_20d": null
   },
   {
@@ -21305,7 +21305,7 @@
    "type": "ベース形成",
    "score": 61.0,
    "entry_price": 4060.0,
-   "ret_5d": null,
+   "ret_5d": -3.57,
    "ret_20d": null
   },
   {
@@ -21316,7 +21316,7 @@
    "type": "ベース形成",
    "score": 60.8,
    "entry_price": 2547.0,
-   "ret_5d": null,
+   "ret_5d": 0.71,
    "ret_20d": null
   },
   {
@@ -21327,7 +21327,7 @@
    "type": "ベース形成",
    "score": 60.8,
    "entry_price": 6290.0,
-   "ret_5d": null,
+   "ret_5d": -3.82,
    "ret_20d": null
   },
   {
@@ -21338,7 +21338,7 @@
    "type": "ベース形成",
    "score": 60.8,
    "entry_price": 5650.0,
-   "ret_5d": null,
+   "ret_5d": -5.49,
    "ret_20d": null
   },
   {
@@ -21349,7 +21349,7 @@
    "type": "ベース形成",
    "score": 60.7,
    "entry_price": 1755.0,
-   "ret_5d": null,
+   "ret_5d": -4.05,
    "ret_20d": null
   },
   {
@@ -21360,7 +21360,7 @@
    "type": "ベース形成",
    "score": 60.7,
    "entry_price": 3236.0,
-   "ret_5d": null,
+   "ret_5d": -2.66,
    "ret_20d": null
   },
   {
@@ -21371,7 +21371,7 @@
    "type": "ベース形成",
    "score": 60.7,
    "entry_price": 2150.0,
-   "ret_5d": null,
+   "ret_5d": 1.0,
    "ret_20d": null
   },
   {
@@ -21382,7 +21382,7 @@
    "type": "ベース形成",
    "score": 60.6,
    "entry_price": 2854.0,
-   "ret_5d": null,
+   "ret_5d": -17.55,
    "ret_20d": null
   },
   {
@@ -21393,7 +21393,7 @@
    "type": "ベース形成",
    "score": 60.5,
    "entry_price": 1174.0,
-   "ret_5d": null,
+   "ret_5d": -0.43,
    "ret_20d": null
   },
   {
@@ -21404,7 +21404,7 @@
    "type": "ベース形成",
    "score": 60.5,
    "entry_price": 4268.0,
-   "ret_5d": null,
+   "ret_5d": 6.09,
    "ret_20d": null
   },
   {
@@ -21415,7 +21415,7 @@
    "type": "ベース形成",
    "score": 60.4,
    "entry_price": 2166.5,
-   "ret_5d": null,
+   "ret_5d": -0.81,
    "ret_20d": null
   },
   {
@@ -21426,7 +21426,7 @@
    "type": "ベース形成",
    "score": 60.4,
    "entry_price": 3413.0,
-   "ret_5d": null,
+   "ret_5d": -6.39,
    "ret_20d": null
   },
   {
@@ -21437,7 +21437,7 @@
    "type": "ベース形成",
    "score": 60.4,
    "entry_price": 3080.0,
-   "ret_5d": null,
+   "ret_5d": -1.46,
    "ret_20d": null
   },
   {
@@ -21448,7 +21448,7 @@
    "type": "ベース形成",
    "score": 60.4,
    "entry_price": 2919.0,
-   "ret_5d": null,
+   "ret_5d": -0.62,
    "ret_20d": null
   },
   {
@@ -21459,7 +21459,7 @@
    "type": "ベース形成",
    "score": 60.4,
    "entry_price": 2047.0,
-   "ret_5d": null,
+   "ret_5d": 5.57,
    "ret_20d": null
   },
   {
@@ -21470,7 +21470,7 @@
    "type": "ベース形成",
    "score": 60.3,
    "entry_price": 4401.0,
-   "ret_5d": null,
+   "ret_5d": 1.32,
    "ret_20d": null
   },
   {
@@ -21481,7 +21481,7 @@
    "type": "ベース形成",
    "score": 60.3,
    "entry_price": 6380.0,
-   "ret_5d": null,
+   "ret_5d": -4.23,
    "ret_20d": null
   },
   {
@@ -21492,7 +21492,7 @@
    "type": "ブレイク",
    "score": 60.3,
    "entry_price": 9710.0,
-   "ret_5d": null,
+   "ret_5d": 5.66,
    "ret_20d": null
   },
   {
@@ -21503,7 +21503,7 @@
    "type": "ブレイク",
    "score": 60.3,
    "entry_price": 849.0,
-   "ret_5d": null,
+   "ret_5d": -8.13,
    "ret_20d": null
   },
   {
@@ -21514,7 +21514,7 @@
    "type": "ベース形成",
    "score": 60.2,
    "entry_price": 1455.5,
-   "ret_5d": null,
+   "ret_5d": -4.02,
    "ret_20d": null
   },
   {
@@ -21525,7 +21525,7 @@
    "type": "ベース形成",
    "score": 60.1,
    "entry_price": 3185.0,
-   "ret_5d": null,
+   "ret_5d": -1.41,
    "ret_20d": null
   },
   {
@@ -21536,7 +21536,7 @@
    "type": "ベース形成",
    "score": 60.0,
    "entry_price": 1092.0,
-   "ret_5d": null,
+   "ret_5d": -6.23,
    "ret_20d": null
   },
   {
@@ -21547,7 +21547,7 @@
    "type": "ベース形成",
    "score": 60.0,
    "entry_price": 3179.0,
-   "ret_5d": null,
+   "ret_5d": 0.79,
    "ret_20d": null
   },
   {
@@ -21558,7 +21558,7 @@
    "type": "ベース形成",
    "score": 60.0,
    "entry_price": 4051.0,
-   "ret_5d": null,
+   "ret_5d": 1.65,
    "ret_20d": null
   },
   {
@@ -21569,7 +21569,7 @@
    "type": "ベース形成",
    "score": 60.0,
    "entry_price": 7620.0,
-   "ret_5d": null,
+   "ret_5d": 1.44,
    "ret_20d": null
   },
   {
@@ -21580,7 +21580,7 @@
    "type": "ベース形成",
    "score": 59.9,
    "entry_price": 2154.0,
-   "ret_5d": null,
+   "ret_5d": 0.84,
    "ret_20d": null
   },
   {
@@ -21591,7 +21591,7 @@
    "type": "ベース形成",
    "score": 59.9,
    "entry_price": 1775.0,
-   "ret_5d": null,
+   "ret_5d": -0.28,
    "ret_20d": null
   },
   {
@@ -21602,7 +21602,7 @@
    "type": "ベース形成",
    "score": 59.7,
    "entry_price": 3862.0,
-   "ret_5d": null,
+   "ret_5d": -3.65,
    "ret_20d": null
   },
   {
@@ -21613,7 +21613,7 @@
    "type": "ベース形成",
    "score": 59.7,
    "entry_price": 2619.0,
-   "ret_5d": null,
+   "ret_5d": -5.8,
    "ret_20d": null
   },
   {
@@ -21624,7 +21624,7 @@
    "type": "ベース形成",
    "score": 59.6,
    "entry_price": 1812.0,
-   "ret_5d": null,
+   "ret_5d": 3.84,
    "ret_20d": null
   },
   {
@@ -21635,7 +21635,7 @@
    "type": "ベース形成",
    "score": 59.5,
    "entry_price": 4900.0,
-   "ret_5d": null,
+   "ret_5d": 1.47,
    "ret_20d": null
   },
   {
@@ -21646,7 +21646,7 @@
    "type": "ブレイク",
    "score": 59.5,
    "entry_price": 957.0,
-   "ret_5d": null,
+   "ret_5d": -4.7,
    "ret_20d": null
   },
   {
@@ -21657,7 +21657,7 @@
    "type": "ベース形成",
    "score": 59.5,
    "entry_price": 533.7999877929688,
-   "ret_5d": null,
+   "ret_5d": -3.69,
    "ret_20d": null
   },
   {
@@ -21668,7 +21668,7 @@
    "type": "ベース形成",
    "score": 59.4,
    "entry_price": 4725.0,
-   "ret_5d": null,
+   "ret_5d": 6.67,
    "ret_20d": null
   },
   {
@@ -21679,7 +21679,7 @@
    "type": "ブレイク",
    "score": 59.4,
    "entry_price": 2258.0,
-   "ret_5d": null,
+   "ret_5d": 3.99,
    "ret_20d": null
   },
   {
@@ -21690,7 +21690,7 @@
    "type": "ベース形成",
    "score": 59.3,
    "entry_price": 2492.0,
-   "ret_5d": null,
+   "ret_5d": -1.16,
    "ret_20d": null
   },
   {
@@ -21701,7 +21701,7 @@
    "type": "ベース形成",
    "score": 59.3,
    "entry_price": 2376.0,
-   "ret_5d": null,
+   "ret_5d": 10.44,
    "ret_20d": null
   },
   {
@@ -21712,7 +21712,7 @@
    "type": "ベース形成",
    "score": 59.1,
    "entry_price": 1818.5,
-   "ret_5d": null,
+   "ret_5d": -3.27,
    "ret_20d": null
   },
   {
@@ -21723,7 +21723,7 @@
    "type": "ブレイク",
    "score": 59.1,
    "entry_price": 2494.0,
-   "ret_5d": null,
+   "ret_5d": 0.0,
    "ret_20d": null
   },
   {
@@ -21734,7 +21734,7 @@
    "type": "ベース形成",
    "score": 58.9,
    "entry_price": 4271.0,
-   "ret_5d": null,
+   "ret_5d": 5.67,
    "ret_20d": null
   },
   {
@@ -21745,7 +21745,7 @@
    "type": "ベース形成",
    "score": 58.8,
    "entry_price": 4019.0,
-   "ret_5d": null,
+   "ret_5d": 3.21,
    "ret_20d": null
   },
   {
@@ -21756,7 +21756,7 @@
    "type": "ベース形成",
    "score": 58.7,
    "entry_price": 2407.5,
-   "ret_5d": null,
+   "ret_5d": -7.44,
    "ret_20d": null
   },
   {
@@ -21767,7 +21767,7 @@
    "type": "ブレイク",
    "score": 58.7,
    "entry_price": 3687.0,
-   "ret_5d": null,
+   "ret_5d": 1.3,
    "ret_20d": null
   },
   {
@@ -21778,7 +21778,7 @@
    "type": "ベース形成",
    "score": 58.6,
    "entry_price": 4867.0,
-   "ret_5d": null,
+   "ret_5d": 8.81,
    "ret_20d": null
   },
   {
@@ -21789,7 +21789,7 @@
    "type": "ベース形成",
    "score": 58.6,
    "entry_price": 1922.0,
-   "ret_5d": null,
+   "ret_5d": 2.34,
    "ret_20d": null
   },
   {
@@ -21800,7 +21800,7 @@
    "type": "ベース形成",
    "score": 58.6,
    "entry_price": 2336.0,
-   "ret_5d": null,
+   "ret_5d": 3.02,
    "ret_20d": null
   },
   {
@@ -21811,7 +21811,7 @@
    "type": "ベース形成",
    "score": 58.6,
    "entry_price": 1072.0,
-   "ret_5d": null,
+   "ret_5d": 3.78,
    "ret_20d": null
   },
   {
@@ -21822,7 +21822,7 @@
    "type": "ベース形成",
    "score": 58.6,
    "entry_price": 2665.0,
-   "ret_5d": null,
+   "ret_5d": 1.76,
    "ret_20d": null
   },
   {
@@ -21833,7 +21833,7 @@
    "type": "ベース形成",
    "score": 58.5,
    "entry_price": 4465.0,
-   "ret_5d": null,
+   "ret_5d": -7.05,
    "ret_20d": null
   },
   {
@@ -21844,7 +21844,7 @@
    "type": "ベース形成",
    "score": 58.5,
    "entry_price": 6759.0,
-   "ret_5d": null,
+   "ret_5d": 1.02,
    "ret_20d": null
   },
   {
@@ -21855,7 +21855,7 @@
    "type": "ベース形成",
    "score": 58.3,
    "entry_price": 2334.0,
-   "ret_5d": null,
+   "ret_5d": -2.83,
    "ret_20d": null
   },
   {
@@ -21866,7 +21866,7 @@
    "type": "ベース形成",
    "score": 58.3,
    "entry_price": 959.0,
-   "ret_5d": null,
+   "ret_5d": -2.19,
    "ret_20d": null
   },
   {
@@ -21877,7 +21877,7 @@
    "type": "ベース形成",
    "score": 58.2,
    "entry_price": 1090.0,
-   "ret_5d": null,
+   "ret_5d": -2.39,
    "ret_20d": null
   },
   {
@@ -21888,7 +21888,7 @@
    "type": "ブレイク",
    "score": 58.2,
    "entry_price": 7030.0,
-   "ret_5d": null,
+   "ret_5d": -3.7,
    "ret_20d": null
   },
   {
@@ -21899,7 +21899,7 @@
    "type": "ベース形成",
    "score": 58.1,
    "entry_price": 233.0,
-   "ret_5d": null,
+   "ret_5d": -1.29,
    "ret_20d": null
   },
   {
@@ -21910,7 +21910,7 @@
    "type": "ベース形成",
    "score": 58.1,
    "entry_price": 3258.0,
-   "ret_5d": null,
+   "ret_5d": 0.92,
    "ret_20d": null
   },
   {
@@ -21921,7 +21921,7 @@
    "type": "ベース形成",
    "score": 58.1,
    "entry_price": 1578.0,
-   "ret_5d": null,
+   "ret_5d": 6.65,
    "ret_20d": null
   },
   {
@@ -21932,7 +21932,7 @@
    "type": "ベース形成",
    "score": 57.9,
    "entry_price": 1535.0,
-   "ret_5d": null,
+   "ret_5d": -3.78,
    "ret_20d": null
   },
   {
@@ -21943,7 +21943,7 @@
    "type": "ベース形成",
    "score": 57.9,
    "entry_price": 892.0,
-   "ret_5d": null,
+   "ret_5d": -0.67,
    "ret_20d": null
   },
   {
@@ -21954,7 +21954,7 @@
    "type": "ベース形成",
    "score": 57.8,
    "entry_price": 1104.0,
-   "ret_5d": null,
+   "ret_5d": -11.46,
    "ret_20d": null
   },
   {
@@ -21965,7 +21965,7 @@
    "type": "ベース形成",
    "score": 57.6,
    "entry_price": 5260.0,
-   "ret_5d": null,
+   "ret_5d": 3.8,
    "ret_20d": null
   },
   {
@@ -21976,7 +21976,7 @@
    "type": "ベース形成",
    "score": 57.5,
    "entry_price": 5150.0,
-   "ret_5d": null,
+   "ret_5d": -2.87,
    "ret_20d": null
   },
   {
@@ -21987,7 +21987,7 @@
    "type": "ベース形成",
    "score": 57.4,
    "entry_price": 23130.0,
-   "ret_5d": null,
+   "ret_5d": 5.45,
    "ret_20d": null
   },
   {
@@ -21998,7 +21998,7 @@
    "type": "ベース形成",
    "score": 57.4,
    "entry_price": 7140.0,
-   "ret_5d": null,
+   "ret_5d": 2.8,
    "ret_20d": null
   },
   {
@@ -22009,7 +22009,7 @@
    "type": "ベース形成",
    "score": 57.4,
    "entry_price": 3470.0,
-   "ret_5d": null,
+   "ret_5d": -4.18,
    "ret_20d": null
   },
   {
@@ -22020,7 +22020,7 @@
    "type": "ベース形成",
    "score": 57.3,
    "entry_price": 4926.0,
-   "ret_5d": null,
+   "ret_5d": -8.36,
    "ret_20d": null
   },
   {
@@ -22031,7 +22031,7 @@
    "type": "ブレイク",
    "score": 57.3,
    "entry_price": 7250.0,
-   "ret_5d": null,
+   "ret_5d": -7.03,
    "ret_20d": null
   },
   {
@@ -22042,7 +22042,7 @@
    "type": "ベース形成",
    "score": 57.1,
    "entry_price": 3125.0,
-   "ret_5d": null,
+   "ret_5d": 3.04,
    "ret_20d": null
   },
   {
@@ -22053,7 +22053,7 @@
    "type": "ベース形成",
    "score": 57.1,
    "entry_price": 5296.0,
-   "ret_5d": null,
+   "ret_5d": 6.33,
    "ret_20d": null
   },
   {
@@ -22064,7 +22064,7 @@
    "type": "ベース形成",
    "score": 57.1,
    "entry_price": 1356.0,
-   "ret_5d": null,
+   "ret_5d": -0.59,
    "ret_20d": null
   },
   {
@@ -22075,7 +22075,7 @@
    "type": "ブレイク",
    "score": 57.1,
    "entry_price": 5760.0,
-   "ret_5d": null,
+   "ret_5d": -7.81,
    "ret_20d": null
   },
   {
@@ -22086,7 +22086,7 @@
    "type": "ベース形成",
    "score": 56.9,
    "entry_price": 2011.0,
-   "ret_5d": null,
+   "ret_5d": -5.87,
    "ret_20d": null
   },
   {
@@ -22097,7 +22097,7 @@
    "type": "ベース形成",
    "score": 56.9,
    "entry_price": 4979.0,
-   "ret_5d": null,
+   "ret_5d": 2.31,
    "ret_20d": null
   },
   {
@@ -22108,7 +22108,7 @@
    "type": "ベース形成",
    "score": 56.8,
    "entry_price": 4350.0,
-   "ret_5d": null,
+   "ret_5d": 2.3,
    "ret_20d": null
   },
   {
@@ -22119,7 +22119,7 @@
    "type": "ベース形成",
    "score": 56.6,
    "entry_price": 1790.0,
-   "ret_5d": null,
+   "ret_5d": 1.51,
    "ret_20d": null
   },
   {
@@ -22130,7 +22130,7 @@
    "type": "ブレイク",
    "score": 56.6,
    "entry_price": 706.0,
-   "ret_5d": null,
+   "ret_5d": -4.67,
    "ret_20d": null
   },
   {
@@ -22141,7 +22141,7 @@
    "type": "ベース形成",
    "score": 56.5,
    "entry_price": 3984.0,
-   "ret_5d": null,
+   "ret_5d": 3.69,
    "ret_20d": null
   },
   {
@@ -22152,7 +22152,7 @@
    "type": "ブレイク",
    "score": 56.5,
    "entry_price": 13385.0,
-   "ret_5d": null,
+   "ret_5d": 4.33,
    "ret_20d": null
   },
   {
@@ -22163,7 +22163,7 @@
    "type": "ベース形成",
    "score": 56.4,
    "entry_price": 3280.0,
-   "ret_5d": null,
+   "ret_5d": -5.18,
    "ret_20d": null
   },
   {
@@ -22174,7 +22174,7 @@
    "type": "ベース形成",
    "score": 56.4,
    "entry_price": 1301.0,
-   "ret_5d": null,
+   "ret_5d": -7.38,
    "ret_20d": null
   },
   {
@@ -22185,7 +22185,7 @@
    "type": "ベース形成",
    "score": 56.3,
    "entry_price": 3623.0,
-   "ret_5d": null,
+   "ret_5d": 4.53,
    "ret_20d": null
   },
   {
@@ -22196,7 +22196,7 @@
    "type": "ベース形成",
    "score": 56.3,
    "entry_price": 7133.0,
-   "ret_5d": null,
+   "ret_5d": 6.9,
    "ret_20d": null
   },
   {
@@ -22207,7 +22207,7 @@
    "type": "ブレイク",
    "score": 56.3,
    "entry_price": 5398.0,
-   "ret_5d": null,
+   "ret_5d": -0.22,
    "ret_20d": null
   },
   {
@@ -22218,7 +22218,7 @@
    "type": "ベース形成",
    "score": 56.2,
    "entry_price": 1500.0,
-   "ret_5d": null,
+   "ret_5d": -7.47,
    "ret_20d": null
   },
   {
@@ -22229,7 +22229,7 @@
    "type": "ベース形成",
    "score": 56.2,
    "entry_price": 10085.0,
-   "ret_5d": null,
+   "ret_5d": 0.25,
    "ret_20d": null
   },
   {
@@ -22240,7 +22240,7 @@
    "type": "ベース形成",
    "score": 56.2,
    "entry_price": 3070.0,
-   "ret_5d": null,
+   "ret_5d": 3.91,
    "ret_20d": null
   },
   {
@@ -22251,7 +22251,7 @@
    "type": "ベース形成",
    "score": 56.1,
    "entry_price": 3995.0,
-   "ret_5d": null,
+   "ret_5d": 3.38,
    "ret_20d": null
   },
   {
@@ -22262,7 +22262,7 @@
    "type": "ベース形成",
    "score": 56.0,
    "entry_price": 1521.5,
-   "ret_5d": null,
+   "ret_5d": 4.44,
    "ret_20d": null
   },
   {
@@ -22273,7 +22273,7 @@
    "type": "ベース形成",
    "score": 55.9,
    "entry_price": 6931.0,
-   "ret_5d": null,
+   "ret_5d": 6.26,
    "ret_20d": null
   },
   {
@@ -22284,7 +22284,7 @@
    "type": "ブレイク",
    "score": 55.9,
    "entry_price": 1605.0,
-   "ret_5d": null,
+   "ret_5d": -0.69,
    "ret_20d": null
   },
   {
@@ -22295,7 +22295,7 @@
    "type": "ベース形成",
    "score": 55.7,
    "entry_price": 3777.0,
-   "ret_5d": null,
+   "ret_5d": 2.49,
    "ret_20d": null
   },
   {
@@ -22306,7 +22306,7 @@
    "type": "ベース形成",
    "score": 55.7,
    "entry_price": 4404.0,
-   "ret_5d": null,
+   "ret_5d": -5.61,
    "ret_20d": null
   },
   {
@@ -22317,7 +22317,7 @@
    "type": "ベース形成",
    "score": 55.7,
    "entry_price": 2432.0,
-   "ret_5d": null,
+   "ret_5d": -1.09,
    "ret_20d": null
   },
   {
@@ -22328,7 +22328,7 @@
    "type": "ブレイク",
    "score": 55.7,
    "entry_price": 2331.5,
-   "ret_5d": null,
+   "ret_5d": -1.57,
    "ret_20d": null
   },
   {
@@ -22339,7 +22339,7 @@
    "type": "ベース形成",
    "score": 55.6,
    "entry_price": 6832.0,
-   "ret_5d": null,
+   "ret_5d": -2.87,
    "ret_20d": null
   },
   {
@@ -22350,7 +22350,7 @@
    "type": "ベース形成",
    "score": 55.5,
    "entry_price": 1827.0,
-   "ret_5d": null,
+   "ret_5d": 0.66,
    "ret_20d": null
   },
   {
@@ -22361,7 +22361,7 @@
    "type": "ベース形成",
    "score": 55.5,
    "entry_price": 1712.0,
-   "ret_5d": null,
+   "ret_5d": -4.35,
    "ret_20d": null
   },
   {
@@ -22372,7 +22372,7 @@
    "type": "ブレイク",
    "score": 55.5,
    "entry_price": 4259.0,
-   "ret_5d": null,
+   "ret_5d": 4.23,
    "ret_20d": null
   },
   {
@@ -22383,7 +22383,7 @@
    "type": "ベース形成",
    "score": 55.5,
    "entry_price": 1958.0,
-   "ret_5d": null,
+   "ret_5d": 3.32,
    "ret_20d": null
   },
   {
@@ -22394,7 +22394,7 @@
    "type": "ベース形成",
    "score": 55.4,
    "entry_price": 6652.0,
-   "ret_5d": null,
+   "ret_5d": -1.64,
    "ret_20d": null
   },
   {
@@ -22405,7 +22405,7 @@
    "type": "ブレイク",
    "score": 55.2,
    "entry_price": 1616.0,
-   "ret_5d": null,
+   "ret_5d": 7.43,
    "ret_20d": null
   },
   {
@@ -22416,7 +22416,7 @@
    "type": "ベース形成",
    "score": 55.1,
    "entry_price": 3563.0,
-   "ret_5d": null,
+   "ret_5d": 1.4,
    "ret_20d": null
   },
   {
@@ -22427,7 +22427,7 @@
    "type": "ベース形成",
    "score": 55.0,
    "entry_price": 2304.0,
-   "ret_5d": null,
+   "ret_5d": -9.2,
    "ret_20d": null
   },
   {
@@ -22438,7 +22438,7 @@
    "type": "ベース形成",
    "score": 55.0,
    "entry_price": 1840.0,
-   "ret_5d": null,
+   "ret_5d": -0.38,
    "ret_20d": null
   },
   {
@@ -22449,7 +22449,7 @@
    "type": "ベース形成",
    "score": 54.9,
    "entry_price": 6017.0,
-   "ret_5d": null,
+   "ret_5d": 8.56,
    "ret_20d": null
   },
   {
@@ -22460,7 +22460,7 @@
    "type": "ベース形成",
    "score": 54.8,
    "entry_price": 1124.0,
-   "ret_5d": null,
+   "ret_5d": 2.49,
    "ret_20d": null
   },
   {
@@ -22471,7 +22471,7 @@
    "type": "ベース形成",
    "score": 54.8,
    "entry_price": 3186.0,
-   "ret_5d": null,
+   "ret_5d": 0.22,
    "ret_20d": null
   },
   {
@@ -22482,7 +22482,7 @@
    "type": "ブレイク",
    "score": 54.8,
    "entry_price": 1296.0,
-   "ret_5d": null,
+   "ret_5d": -5.52,
    "ret_20d": null
   },
   {
@@ -22493,7 +22493,7 @@
    "type": "ブレイク",
    "score": 54.5,
    "entry_price": 5400.0,
-   "ret_5d": null,
+   "ret_5d": 1.26,
    "ret_20d": null
   },
   {
@@ -22504,7 +22504,7 @@
    "type": "ベース形成",
    "score": 54.5,
    "entry_price": 1158.5,
-   "ret_5d": null,
+   "ret_5d": -2.81,
    "ret_20d": null
   },
   {
@@ -22515,7 +22515,7 @@
    "type": "ベース形成",
    "score": 54.4,
    "entry_price": 2738.0,
-   "ret_5d": null,
+   "ret_5d": -2.96,
    "ret_20d": null
   },
   {
@@ -22526,7 +22526,7 @@
    "type": "ブレイク",
    "score": 54.4,
    "entry_price": 6244.0,
-   "ret_5d": null,
+   "ret_5d": -0.69,
    "ret_20d": null
   },
   {
@@ -22537,7 +22537,7 @@
    "type": "ベース形成",
    "score": 54.3,
    "entry_price": 4795.0,
-   "ret_5d": null,
+   "ret_5d": 0.42,
    "ret_20d": null
   },
   {
@@ -22548,7 +22548,7 @@
    "type": "ベース形成",
    "score": 54.0,
    "entry_price": 2829.0,
-   "ret_5d": null,
+   "ret_5d": -2.69,
    "ret_20d": null
   },
   {
@@ -22559,7 +22559,7 @@
    "type": "ベース形成",
    "score": 54.0,
    "entry_price": 4442.0,
-   "ret_5d": null,
+   "ret_5d": -2.81,
    "ret_20d": null
   },
   {
@@ -22570,7 +22570,7 @@
    "type": "ベース形成",
    "score": 53.9,
    "entry_price": 3177.0,
-   "ret_5d": null,
+   "ret_5d": -5.65,
    "ret_20d": null
   },
   {
@@ -22581,7 +22581,7 @@
    "type": "ベース形成",
    "score": 53.9,
    "entry_price": 3291.0,
-   "ret_5d": null,
+   "ret_5d": 1.88,
    "ret_20d": null
   },
   {
@@ -22592,7 +22592,7 @@
    "type": "ベース形成",
    "score": 53.8,
    "entry_price": 3985.0,
-   "ret_5d": null,
+   "ret_5d": 9.03,
    "ret_20d": null
   },
   {
@@ -22603,7 +22603,7 @@
    "type": "ベース形成",
    "score": 53.8,
    "entry_price": 3391.0,
-   "ret_5d": null,
+   "ret_5d": -1.92,
    "ret_20d": null
   },
   {
@@ -22614,7 +22614,7 @@
    "type": "ベース形成",
    "score": 53.7,
    "entry_price": 1571.0,
-   "ret_5d": null,
+   "ret_5d": -4.81,
    "ret_20d": null
   },
   {
@@ -22625,7 +22625,7 @@
    "type": "ベース形成",
    "score": 53.7,
    "entry_price": 7482.0,
-   "ret_5d": null,
+   "ret_5d": -7.2,
    "ret_20d": null
   },
   {
@@ -22636,7 +22636,7 @@
    "type": "ベース形成",
    "score": 53.4,
    "entry_price": 1035.5,
-   "ret_5d": null,
+   "ret_5d": -4.44,
    "ret_20d": null
   },
   {
@@ -22647,7 +22647,7 @@
    "type": "ベース形成",
    "score": 53.3,
    "entry_price": 3357.0,
-   "ret_5d": null,
+   "ret_5d": -0.21,
    "ret_20d": null
   },
   {
@@ -22658,7 +22658,7 @@
    "type": "ベース形成",
    "score": 53.2,
    "entry_price": 7868.0,
-   "ret_5d": null,
+   "ret_5d": -5.63,
    "ret_20d": null
   },
   {
@@ -22669,7 +22669,7 @@
    "type": "ベース形成",
    "score": 53.2,
    "entry_price": 2063.0,
-   "ret_5d": null,
+   "ret_5d": -0.78,
    "ret_20d": null
   },
   {
@@ -22680,7 +22680,7 @@
    "type": "ベース形成",
    "score": 53.2,
    "entry_price": 2721.0,
-   "ret_5d": null,
+   "ret_5d": 2.63,
    "ret_20d": null
   },
   {
@@ -22691,7 +22691,7 @@
    "type": "ベース形成",
    "score": 53.0,
    "entry_price": 8480.0,
-   "ret_5d": null,
+   "ret_5d": 0.0,
    "ret_20d": null
   },
   {
@@ -22702,7 +22702,7 @@
    "type": "ベース形成",
    "score": 52.9,
    "entry_price": 12780.0,
-   "ret_5d": null,
+   "ret_5d": 4.19,
    "ret_20d": null
   },
   {
@@ -22713,7 +22713,7 @@
    "type": "ブレイク",
    "score": 52.8,
    "entry_price": 2967.5,
-   "ret_5d": null,
+   "ret_5d": 0.93,
    "ret_20d": null
   },
   {
@@ -22724,7 +22724,7 @@
    "type": "ベース形成",
    "score": 52.8,
    "entry_price": 1745.0,
-   "ret_5d": null,
+   "ret_5d": 6.82,
    "ret_20d": null
   },
   {
@@ -22735,7 +22735,7 @@
    "type": "ベース形成",
    "score": 52.6,
    "entry_price": 10950.0,
-   "ret_5d": null,
+   "ret_5d": 2.65,
    "ret_20d": null
   },
   {
@@ -22746,7 +22746,7 @@
    "type": "ベース形成",
    "score": 52.6,
    "entry_price": 7034.0,
-   "ret_5d": null,
+   "ret_5d": 5.35,
    "ret_20d": null
   },
   {
@@ -22757,7 +22757,7 @@
    "type": "ベース形成",
    "score": 52.5,
    "entry_price": 1458.0,
-   "ret_5d": null,
+   "ret_5d": -5.01,
    "ret_20d": null
   },
   {
@@ -22768,7 +22768,7 @@
    "type": "ベース形成",
    "score": 52.5,
    "entry_price": 1963.0,
-   "ret_5d": null,
+   "ret_5d": 0.15,
    "ret_20d": null
   },
   {
@@ -22779,7 +22779,7 @@
    "type": "ベース形成",
    "score": 52.4,
    "entry_price": 4936.0,
-   "ret_5d": null,
+   "ret_5d": 3.0,
    "ret_20d": null
   },
   {
@@ -22790,7 +22790,7 @@
    "type": "ベース形成",
    "score": 52.2,
    "entry_price": 4313.0,
-   "ret_5d": null,
+   "ret_5d": 0.44,
    "ret_20d": null
   },
   {
@@ -22801,7 +22801,7 @@
    "type": "ベース形成",
    "score": 52.2,
    "entry_price": 10245.0,
-   "ret_5d": null,
+   "ret_5d": 3.95,
    "ret_20d": null
   },
   {
@@ -22812,7 +22812,7 @@
    "type": "ベース形成",
    "score": 52.2,
    "entry_price": 6184.0,
-   "ret_5d": null,
+   "ret_5d": 3.56,
    "ret_20d": null
   },
   {
@@ -22823,7 +22823,7 @@
    "type": "ベース形成",
    "score": 52.1,
    "entry_price": 29530.0,
-   "ret_5d": null,
+   "ret_5d": 5.25,
    "ret_20d": null
   },
   {
@@ -22834,7 +22834,7 @@
    "type": "ベース形成",
    "score": 52.1,
    "entry_price": 3872.0,
-   "ret_5d": null,
+   "ret_5d": 2.43,
    "ret_20d": null
   },
   {
@@ -22845,7 +22845,7 @@
    "type": "ベース形成",
    "score": 52.0,
    "entry_price": 4604.0,
-   "ret_5d": null,
+   "ret_5d": -3.63,
    "ret_20d": null
   },
   {
@@ -22856,7 +22856,7 @@
    "type": "ベース形成",
    "score": 51.8,
    "entry_price": 2946.5,
-   "ret_5d": null,
+   "ret_5d": -4.28,
    "ret_20d": null
   },
   {
@@ -22867,7 +22867,7 @@
    "type": "ベース形成",
    "score": 51.7,
    "entry_price": 1433.0,
-   "ret_5d": null,
+   "ret_5d": 0.38,
    "ret_20d": null
   },
   {
@@ -22878,7 +22878,7 @@
    "type": "ベース形成",
    "score": 51.7,
    "entry_price": 3810.0,
-   "ret_5d": null,
+   "ret_5d": 3.86,
    "ret_20d": null
   },
   {
@@ -22889,7 +22889,7 @@
    "type": "ベース形成",
    "score": 51.1,
    "entry_price": 5150.0,
-   "ret_5d": null,
+   "ret_5d": -10.1,
    "ret_20d": null
   },
   {
@@ -22900,7 +22900,7 @@
    "type": "ベース形成",
    "score": 51.1,
    "entry_price": 9040.0,
-   "ret_5d": null,
+   "ret_5d": -0.88,
    "ret_20d": null
   },
   {
@@ -22911,7 +22911,7 @@
    "type": "ベース形成",
    "score": 51.0,
    "entry_price": 2730.0,
-   "ret_5d": null,
+   "ret_5d": 7.88,
    "ret_20d": null
   },
   {
@@ -22922,7 +22922,7 @@
    "type": "ベース形成",
    "score": 50.9,
    "entry_price": 2465.0,
-   "ret_5d": null,
+   "ret_5d": -1.64,
    "ret_20d": null
   },
   {
@@ -22933,7 +22933,7 @@
    "type": "ベース形成",
    "score": 50.8,
    "entry_price": 84400.0,
-   "ret_5d": null,
+   "ret_5d": 2.1,
    "ret_20d": null
   },
   {
@@ -22944,7 +22944,7 @@
    "type": "ベース形成",
    "score": 50.7,
    "entry_price": 1558.0,
-   "ret_5d": null,
+   "ret_5d": 0.0,
    "ret_20d": null
   },
   {
@@ -22955,7 +22955,7 @@
    "type": "ベース形成",
    "score": 50.5,
    "entry_price": 21530.0,
-   "ret_5d": null,
+   "ret_5d": -0.14,
    "ret_20d": null
   },
   {
@@ -22966,7 +22966,7 @@
    "type": "ベース形成",
    "score": 50.2,
    "entry_price": 2331.0,
-   "ret_5d": null,
+   "ret_5d": 0.51,
    "ret_20d": null
   },
   {
@@ -22977,7 +22977,7 @@
    "type": "ベース形成",
    "score": 50.1,
    "entry_price": 4445.0,
-   "ret_5d": null,
+   "ret_5d": -6.57,
    "ret_20d": null
   },
   {
@@ -22988,7 +22988,7 @@
    "type": "ベース形成",
    "score": 48.5,
    "entry_price": 2240.0,
-   "ret_5d": null,
+   "ret_5d": 13.21,
    "ret_20d": null
   },
   {
@@ -22999,7 +22999,7 @@
    "type": "ベース形成",
    "score": 47.8,
    "entry_price": 1794.0,
-   "ret_5d": null,
+   "ret_5d": -2.84,
    "ret_20d": null
   },
   {
@@ -33548,6 +33548,2679 @@
    "type": "ベース形成",
    "score": 47.4,
    "entry_price": 5440.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "4812.T",
+   "name": "電通総研",
+   "grade": "A",
+   "type": "ベース形成",
+   "score": 80.3,
+   "entry_price": 2880.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "4722.T",
+   "name": "フューチャー",
+   "grade": "A",
+   "type": "ベース形成",
+   "score": 80.2,
+   "entry_price": 2432.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "2492.T",
+   "name": "インフォマート",
+   "grade": "A",
+   "type": "ベース形成",
+   "score": 78.3,
+   "entry_price": 741.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "7630.T",
+   "name": "壱番屋",
+   "grade": "A",
+   "type": "ブレイク",
+   "score": 75.6,
+   "entry_price": 1239.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "6191.T",
+   "name": "エアトリ",
+   "grade": "A",
+   "type": "ベース形成",
+   "score": 74.4,
+   "entry_price": 1535.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "4088.T",
+   "name": "エア・ウォーター",
+   "grade": "A",
+   "type": "ベース形成",
+   "score": 74.1,
+   "entry_price": 3105.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "8848.T",
+   "name": "レオパレス２１",
+   "grade": "A",
+   "type": "ベース形成",
+   "score": 74.1,
+   "entry_price": 989.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "2371.T",
+   "name": "カカクコム",
+   "grade": "A",
+   "type": "ベース形成",
+   "score": 73.9,
+   "entry_price": 3740.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "8173.T",
+   "name": "Ｊｏｓｈｉｎ",
+   "grade": "A",
+   "type": "ベース形成",
+   "score": 73.8,
+   "entry_price": 4500.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "4967.T",
+   "name": "小林製薬",
+   "grade": "A",
+   "type": "ベース形成",
+   "score": 73.0,
+   "entry_price": 6998.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "2593.T",
+   "name": "伊藤園",
+   "grade": "A",
+   "type": "ベース形成",
+   "score": 72.5,
+   "entry_price": 3424.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "4972.T",
+   "name": "綜研化学",
+   "grade": "A",
+   "type": "ブレイク",
+   "score": 72.3,
+   "entry_price": 5400.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "7976.T",
+   "name": "三菱鉛筆",
+   "grade": "A",
+   "type": "ベース形成",
+   "score": 70.4,
+   "entry_price": 3635.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "8725.T",
+   "name": "ＭＳ＆ＡＤインシュアランスグループホールディングス",
+   "grade": "A",
+   "type": "ベース形成",
+   "score": 70.3,
+   "entry_price": 5463.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "2004.T",
+   "name": "昭和産業",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 69.8,
+   "entry_price": 4115.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "2269.T",
+   "name": "明治ホールディングス",
+   "grade": "B",
+   "type": "ブレイク",
+   "score": 69.8,
+   "entry_price": 4827.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "9678.T",
+   "name": "カナモト",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 69.7,
+   "entry_price": 5520.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "4578.T",
+   "name": "大塚ホールディングス",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 69.6,
+   "entry_price": 13130.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "2664.T",
+   "name": "カワチ薬品",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 69.5,
+   "entry_price": 4175.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "9697.T",
+   "name": "カプコン",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 69.2,
+   "entry_price": 4469.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "8242.T",
+   "name": "エイチ・ツー・オー　リテイリング",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 68.5,
+   "entry_price": 2892.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "4613.T",
+   "name": "関西ペイント",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 68.2,
+   "entry_price": 2932.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "2612.T",
+   "name": "かどや製油",
+   "grade": "B",
+   "type": "ブレイク",
+   "score": 68.2,
+   "entry_price": 3150.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "4413.T",
+   "name": "ボードルア",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 68.1,
+   "entry_price": 2940.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "3091.T",
+   "name": "ブロンコビリー",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 67.6,
+   "entry_price": 3050.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "3076.T",
+   "name": "あい　ホールディングス",
+   "grade": "B",
+   "type": "ブレイク",
+   "score": 67.4,
+   "entry_price": 3220.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "6238.T",
+   "name": "フリュー",
+   "grade": "B",
+   "type": "ブレイク",
+   "score": 67.4,
+   "entry_price": 1877.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "9831.T",
+   "name": "ヤマダホールディングス",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 67.3,
+   "entry_price": 819.9000244140625,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "7846.T",
+   "name": "パイロットコーポレーション",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 67.2,
+   "entry_price": 2192.5,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "6869.T",
+   "name": "シスメックス",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 67.2,
+   "entry_price": 2171.5,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "8766.T",
+   "name": "東京海上ホールディングス",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 67.0,
+   "entry_price": 597.5999755859375,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "7839.T",
+   "name": "ＳＨＯＥＩ",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 67.0,
+   "entry_price": 2448.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "9010.T",
+   "name": "富士急行",
+   "grade": "B",
+   "type": "ブレイク",
+   "score": 66.9,
+   "entry_price": 2893.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "2121.T",
+   "name": "ＭＩＸＩ",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 66.8,
+   "entry_price": 3915.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "1939.T",
+   "name": "四電工",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 66.4,
+   "entry_price": 2308.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "7864.T",
+   "name": "フジシールインターナショナル",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 66.2,
+   "entry_price": 3450.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "3697.T",
+   "name": "ＳＨＩＦＴ",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 66.2,
+   "entry_price": 1112.5,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "7516.T",
+   "name": "コーナン商事",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 66.1,
+   "entry_price": 4905.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "7951.T",
+   "name": "ヤマハ",
+   "grade": "B",
+   "type": "ブレイク",
+   "score": 66.0,
+   "entry_price": 1399.5,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "4417.T",
+   "name": "グローバルセキュリティエキスパート",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 66.0,
+   "entry_price": 8480.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "2001.T",
+   "name": "ニップン",
+   "grade": "B",
+   "type": "ブレイク",
+   "score": 65.9,
+   "entry_price": 3105.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "2767.T",
+   "name": "円谷フィールズホールディングス",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 65.9,
+   "entry_price": 2421.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "8410.T",
+   "name": "セブン銀行",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 65.8,
+   "entry_price": 347.5,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "7947.T",
+   "name": "エフピコ",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 65.8,
+   "entry_price": 3140.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "7085.T",
+   "name": "カーブスホールディングス",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 65.8,
+   "entry_price": 1088.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "4958.T",
+   "name": "長谷川香料",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 65.6,
+   "entry_price": 3480.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "2222.T",
+   "name": "寿スピリッツ",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 65.6,
+   "entry_price": 2820.5,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "7575.T",
+   "name": "日本ライフライン",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 65.5,
+   "entry_price": 1694.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "7296.T",
+   "name": "エフ・シー・シー",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 65.4,
+   "entry_price": 4185.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "4714.T",
+   "name": "リソー教育グループ",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 65.4,
+   "entry_price": 292.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "2659.T",
+   "name": "サンエー",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 65.2,
+   "entry_price": 3335.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "7701.T",
+   "name": "島津製作所",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 65.2,
+   "entry_price": 4640.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "3034.T",
+   "name": "クオールホールディングス",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 65.2,
+   "entry_price": 2463.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "9279.T",
+   "name": "ギフトホールディングス",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 64.9,
+   "entry_price": 2467.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "4816.T",
+   "name": "東映アニメーション",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 64.9,
+   "entry_price": 3515.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "7476.T",
+   "name": "アズワン",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 64.8,
+   "entry_price": 2565.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "6178.T",
+   "name": "日本郵政",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 64.8,
+   "entry_price": 2319.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "4665.T",
+   "name": "ダスキン",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 64.5,
+   "entry_price": 4950.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "7740.T",
+   "name": "タムロン",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 64.5,
+   "entry_price": 1348.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "4526.T",
+   "name": "理研ビタミン",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 64.5,
+   "entry_price": 3835.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "9110.T",
+   "name": "ＮＳユナイテッド海運",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 64.5,
+   "entry_price": 10550.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "2175.T",
+   "name": "エス・エム・エス",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 64.4,
+   "entry_price": 2624.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "2602.T",
+   "name": "日清オイリオグループ",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 64.3,
+   "entry_price": 2145.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "4194.T",
+   "name": "ビジョナル",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 64.3,
+   "entry_price": 10110.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "8630.T",
+   "name": "ＳＯＭＰＯホールディングス",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 64.0,
+   "entry_price": 7242.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "4373.T",
+   "name": "シンプレクス・ホールディングス",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 63.8,
+   "entry_price": 1169.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "9513.T",
+   "name": "電源開発",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 63.7,
+   "entry_price": 3948.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "3762.T",
+   "name": "テクマトリックス",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 63.6,
+   "entry_price": 3190.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "2805.T",
+   "name": "ヱスビー食品",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 63.5,
+   "entry_price": 7340.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "4452.T",
+   "name": "花王",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 63.4,
+   "entry_price": 4118.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "8876.T",
+   "name": "リログループ",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 63.4,
+   "entry_price": 2406.5,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "1941.T",
+   "name": "中電工",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 63.3,
+   "entry_price": 5170.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "6592.T",
+   "name": "マブチモーター",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 63.3,
+   "entry_price": 1736.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "8697.T",
+   "name": "日本取引所グループ",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 63.2,
+   "entry_price": 2149.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "4901.T",
+   "name": "富士フイルムホールディングス",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 63.2,
+   "entry_price": 3787.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "9064.T",
+   "name": "ヤマトホールディングス",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 63.2,
+   "entry_price": 2343.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "3401.T",
+   "name": "帝人",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 63.1,
+   "entry_price": 1684.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "9401.T",
+   "name": "ＴＢＳホールディングス",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 63.1,
+   "entry_price": 6351.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "1518.T",
+   "name": "三井松島ホールディングス",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 63.0,
+   "entry_price": 2172.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "6460.T",
+   "name": "セガサミーホールディングス",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 63.0,
+   "entry_price": 3292.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "4588.T",
+   "name": "オンコリスバイオファーマ",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 63.0,
+   "entry_price": 7730.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "7272.T",
+   "name": "ヤマハ発動機",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 62.8,
+   "entry_price": 1770.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "7613.T",
+   "name": "シークス",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 62.5,
+   "entry_price": 1512.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "7309.T",
+   "name": "シマノ",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 62.0,
+   "entry_price": 21500.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "2433.T",
+   "name": "博報堂ＤＹホールディングス",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 61.9,
+   "entry_price": 1397.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "9602.T",
+   "name": "東宝",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 61.7,
+   "entry_price": 1839.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "9009.T",
+   "name": "京成電鉄",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 61.7,
+   "entry_price": 1589.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "8163.T",
+   "name": "ＳＲＳホールディングス",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 61.7,
+   "entry_price": 2023.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "6058.T",
+   "name": "ベクトル",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 61.7,
+   "entry_price": 2242.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "8060.T",
+   "name": "キヤノンマーケティングジャパン",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 61.6,
+   "entry_price": 4131.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "2730.T",
+   "name": "エディオン",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 61.5,
+   "entry_price": 2585.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "7267.T",
+   "name": "本田技研工業",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 61.5,
+   "entry_price": 1763.5,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "9536.T",
+   "name": "西部ガスホールディングス",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 61.4,
+   "entry_price": 2901.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "9041.T",
+   "name": "近鉄グループホールディングス",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 61.3,
+   "entry_price": 3649.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "8218.T",
+   "name": "コメリ",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 61.3,
+   "entry_price": 4080.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "3387.T",
+   "name": "クリエイト・レストランツ・ホールディングス",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 61.3,
+   "entry_price": 886.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "4689.T",
+   "name": "ＬＩＮＥヤフー",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 61.1,
+   "entry_price": 514.0999755859375,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "6736.T",
+   "name": "サン電子",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 61.1,
+   "entry_price": 10210.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "7616.T",
+   "name": "コロワイド",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 61.0,
+   "entry_price": 2527.5,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "4933.T",
+   "name": "Ｉ－ｎｅ",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 61.0,
+   "entry_price": 2241.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "8439.T",
+   "name": "東京センチュリー",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 60.9,
+   "entry_price": 2560.5,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "4432.T",
+   "name": "ウイングアーク１ｓｔ",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 60.9,
+   "entry_price": 3485.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "6418.T",
+   "name": "日本金銭機械",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 60.9,
+   "entry_price": 1432.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "5121.T",
+   "name": "藤倉コンポジット",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 60.5,
+   "entry_price": 3035.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "3549.T",
+   "name": "クスリのアオキホールディングス",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 60.4,
+   "entry_price": 5002.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "9605.T",
+   "name": "東映",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 60.3,
+   "entry_price": 6310.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "8051.T",
+   "name": "山善",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 60.3,
+   "entry_price": 1872.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "6457.T",
+   "name": "グローリー",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 60.3,
+   "entry_price": 5296.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "2809.T",
+   "name": "キユーピー",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 60.1,
+   "entry_price": 4972.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "2801.T",
+   "name": "キッコーマン",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 60.1,
+   "entry_price": 1881.5,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "3097.T",
+   "name": "物語コーポレーション",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 60.1,
+   "entry_price": 6050.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "6877.T",
+   "name": "ＯＢＡＲＡ　ＧＲＯＵＰ",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 60.1,
+   "entry_price": 6740.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "3941.T",
+   "name": "レンゴー",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 60.0,
+   "entry_price": 1477.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "4544.T",
+   "name": "Ｈ．Ｕ．グループホールディングス",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 60.0,
+   "entry_price": 4148.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "8022.T",
+   "name": "美津濃",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 59.9,
+   "entry_price": 4345.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "2503.T",
+   "name": "キリンホールディングス",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 59.9,
+   "entry_price": 3204.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "1762.T",
+   "name": "高松コンストラクショングループ",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 59.9,
+   "entry_price": 4480.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "4189.T",
+   "name": "ＫＨネオケム",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 59.8,
+   "entry_price": 3110.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "7780.T",
+   "name": "メニコン",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 59.8,
+   "entry_price": 1980.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "2579.T",
+   "name": "コカ・コーラ　ボトラーズジャパンホールディングス",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 59.8,
+   "entry_price": 4437.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "5108.T",
+   "name": "ブリヂストン",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 59.7,
+   "entry_price": 4385.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "3191.T",
+   "name": "ジョイフル本田",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 59.6,
+   "entry_price": 2372.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "2871.T",
+   "name": "ニチレイ",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 59.6,
+   "entry_price": 2359.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "4704.T",
+   "name": "トレンドマイクロ",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 59.6,
+   "entry_price": 7625.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "4768.T",
+   "name": "大塚商会",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 59.6,
+   "entry_price": 4017.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "2810.T",
+   "name": "ハウス食品グループ本社",
+   "grade": "B",
+   "type": "ブレイク",
+   "score": 59.6,
+   "entry_price": 5082.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "9007.T",
+   "name": "小田急電鉄",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 59.5,
+   "entry_price": 1827.5,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "8923.T",
+   "name": "トーセイ",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 59.5,
+   "entry_price": 1967.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "3402.T",
+   "name": "東レ",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 59.5,
+   "entry_price": 1339.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "3563.T",
+   "name": "ＦＯＯＤ　＆　ＬＩＦＥ　ＣＯＭＰＡＮＩＥＳ",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 59.5,
+   "entry_price": 6201.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "2531.T",
+   "name": "宝ホールディングス",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 59.3,
+   "entry_price": 2792.5,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "4565.T",
+   "name": "ネクセラファーマ",
+   "grade": "B",
+   "type": "ブレイク",
+   "score": 59.2,
+   "entry_price": 1864.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "4324.T",
+   "name": "電通グループ",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 59.1,
+   "entry_price": 3721.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "4091.T",
+   "name": "日本酸素ホールディングス",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 59.0,
+   "entry_price": 5900.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "3661.T",
+   "name": "エムアップホールディングス",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 59.0,
+   "entry_price": 912.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "7181.T",
+   "name": "かんぽ生命保険",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 59.0,
+   "entry_price": 1766.5,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "8795.T",
+   "name": "Ｔ＆Ｄホールディングス",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 59.0,
+   "entry_price": 4825.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "9843.T",
+   "name": "ニトリホールディングス",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 59.0,
+   "entry_price": 3735.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "2384.T",
+   "name": "ＳＢＳホールディングス",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 58.9,
+   "entry_price": 5340.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "2212.T",
+   "name": "山崎製パン",
+   "grade": "B",
+   "type": "ブレイク",
+   "score": 58.9,
+   "entry_price": 4528.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "4475.T",
+   "name": "ＨＥＮＮＧＥ",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 58.9,
+   "entry_price": 2536.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "9601.T",
+   "name": "松竹",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 58.8,
+   "entry_price": 12820.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "4634.T",
+   "name": "ａｒｔｉｅｎｃｅ",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 58.7,
+   "entry_price": 4780.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "6145.T",
+   "name": "ＮＩＴＴＯＫＵ",
+   "grade": "B",
+   "type": "ブレイク",
+   "score": 58.7,
+   "entry_price": 3055.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "7504.T",
+   "name": "高速",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 58.7,
+   "entry_price": 5460.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "9861.T",
+   "name": "吉野家ホールディングス",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 58.6,
+   "entry_price": 5084.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "4733.T",
+   "name": "オービックビジネスコンサルタント",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 58.5,
+   "entry_price": 10650.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "2146.T",
+   "name": "ＵＴグループ",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 58.4,
+   "entry_price": 230.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "9746.T",
+   "name": "ＴＫＣ",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 58.3,
+   "entry_price": 4450.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "4118.T",
+   "name": "カネカ",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 58.3,
+   "entry_price": 6056.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "3086.T",
+   "name": "Ｊ．フロント　リテイリング",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 58.3,
+   "entry_price": 3193.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "3182.T",
+   "name": "オイシックス",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 58.2,
+   "entry_price": 1790.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "4527.T",
+   "name": "ロート製薬",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 58.2,
+   "entry_price": 2888.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "9101.T",
+   "name": "日本郵船",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 58.2,
+   "entry_price": 6636.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "4686.T",
+   "name": "ジャストシステム",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 58.2,
+   "entry_price": 4815.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "3028.T",
+   "name": "アルペン",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 58.1,
+   "entry_price": 2721.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "9616.T",
+   "name": "共立メンテナンス",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 58.0,
+   "entry_price": 3957.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "6758.T",
+   "name": "ソニーグループ",
+   "grade": "B",
+   "type": "ブレイク",
+   "score": 57.9,
+   "entry_price": 4513.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "7956.T",
+   "name": "ピジョン",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 57.8,
+   "entry_price": 2405.5,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "6379.T",
+   "name": "レイズネクスト",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 57.7,
+   "entry_price": 938.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "9706.T",
+   "name": "日本空港ビルデング",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 57.7,
+   "entry_price": 6828.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "9075.T",
+   "name": "福山通運",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 57.6,
+   "entry_price": 6110.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "4410.T",
+   "name": "ハリマ化成グループ",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 57.6,
+   "entry_price": 1205.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "9889.T",
+   "name": "ＪＢＣＣホールディングス",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 57.6,
+   "entry_price": 2161.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "3399.T",
+   "name": "丸千代山岡家",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 57.6,
+   "entry_price": 5310.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "9069.T",
+   "name": "センコーグループホールディングス",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 57.5,
+   "entry_price": 2321.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "3064.T",
+   "name": "ＭｏｎｏｔａＲＯ",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 57.5,
+   "entry_price": 2483.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "9888.T",
+   "name": "ＵＥＸ",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 57.5,
+   "entry_price": 1385.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "4927.T",
+   "name": "ポーラ・オルビスホールディングス",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 57.4,
+   "entry_price": 1489.5,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "9021.T",
+   "name": "西日本旅客鉄道",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 57.4,
+   "entry_price": 3326.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "2670.T",
+   "name": "エービーシー・マート",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 57.4,
+   "entry_price": 3353.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "4044.T",
+   "name": "セントラル硝子",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 57.2,
+   "entry_price": 4370.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "4228.T",
+   "name": "積水化成品工業",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 57.2,
+   "entry_price": 673.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "9048.T",
+   "name": "名古屋鉄道",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 57.1,
+   "entry_price": 1972.5,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "7606.T",
+   "name": "ＴＡＢＡＹＡホールディングス",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 57.1,
+   "entry_price": 2719.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "3774.T",
+   "name": "インターネットイニシアティブ",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 57.1,
+   "entry_price": 3938.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "7581.T",
+   "name": "サイゼリヤ",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 57.1,
+   "entry_price": 8960.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "4543.T",
+   "name": "テルモ",
+   "grade": "B",
+   "type": "ブレイク",
+   "score": 57.0,
+   "entry_price": 2696.5,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "4611.T",
+   "name": "大日本塗料",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 57.0,
+   "entry_price": 1817.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "5901.T",
+   "name": "東洋製罐グループホールディングス",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 56.9,
+   "entry_price": 4459.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "2181.T",
+   "name": "パーソルホールディングス",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 56.7,
+   "entry_price": 286.6000061035156,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "4027.T",
+   "name": "テイカ",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 56.7,
+   "entry_price": 2366.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "8255.T",
+   "name": "アクシアル　リテイリング",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 56.7,
+   "entry_price": 1558.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "9147.T",
+   "name": "ＮＩＰＰＯＮ　ＥＸＰＲＥＳＳホールディングス",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 56.6,
+   "entry_price": 5700.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "8153.T",
+   "name": "モスフードサービス",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 56.4,
+   "entry_price": 5040.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "6062.T",
+   "name": "チャーム・ケア・コーポレーション",
+   "grade": "B",
+   "type": "ブレイク",
+   "score": 56.3,
+   "entry_price": 1966.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "4919.T",
+   "name": "ミルボン",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 56.2,
+   "entry_price": 3840.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "2331.T",
+   "name": "ＡＬＳＯＫ",
+   "grade": "B",
+   "type": "ブレイク",
+   "score": 56.1,
+   "entry_price": 1426.5,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "3632.T",
+   "name": "グリーホールディングス",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 56.0,
+   "entry_price": 487.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "2124.T",
+   "name": "ジェイエイシーリクルートメント",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 55.9,
+   "entry_price": 1152.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "3197.T",
+   "name": "すかいらーくホールディングス",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 55.9,
+   "entry_price": 3871.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "3099.T",
+   "name": "三越伊勢丹ホールディングス",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 55.5,
+   "entry_price": 1833.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "9735.T",
+   "name": "セコム",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 55.5,
+   "entry_price": 7596.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "9684.T",
+   "name": "スクウェア・エニックス・ホールディングス",
+   "grade": "B",
+   "type": "ブレイク",
+   "score": 55.5,
+   "entry_price": 3680.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "9766.T",
+   "name": "コナミグループ",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 55.5,
+   "entry_price": 31080.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "9658.T",
+   "name": "ビジネスブレイン太田昭和",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 55.5,
+   "entry_price": 1594.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "9201.T",
+   "name": "日本航空",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 55.4,
+   "entry_price": 3613.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "4661.T",
+   "name": "オリエンタルランド",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 55.4,
+   "entry_price": 3966.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "4684.T",
+   "name": "オービック",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 55.4,
+   "entry_price": 6404.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "3087.T",
+   "name": "ドトール・日レスホールディングス",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 55.3,
+   "entry_price": 4130.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "4502.T",
+   "name": "武田薬品工業",
+   "grade": "B",
+   "type": "ブレイク",
+   "score": 55.2,
+   "entry_price": 7365.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "6080.T",
+   "name": "Ｍ＆Ａキャピタルパートナーズ",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 55.1,
+   "entry_price": 4180.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "7453.T",
+   "name": "良品計画",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 55.1,
+   "entry_price": 5094.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "8309.T",
+   "name": "三井住友トラストグループ",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 55.0,
+   "entry_price": 1637.5,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "4307.T",
+   "name": "野村総合研究所",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 55.0,
+   "entry_price": 6532.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "4612.T",
+   "name": "日本ペイントホールディングス",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 54.9,
+   "entry_price": 1438.5,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "4912.T",
+   "name": "ライオン",
+   "grade": "B",
+   "type": "ブレイク",
+   "score": 54.9,
+   "entry_price": 2348.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "8237.T",
+   "name": "松屋",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 54.9,
+   "entry_price": 2712.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "7716.T",
+   "name": "ナカニシ",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 54.4,
+   "entry_price": 1683.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "2607.T",
+   "name": "不二製油",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 54.2,
+   "entry_price": 4317.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "4202.T",
+   "name": "ダイセル",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 53.5,
+   "entry_price": 1495.5,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "6098.T",
+   "name": "リクルートホールディングス",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 53.5,
+   "entry_price": 17020.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "6367.T",
+   "name": "ダイキン工業",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 53.4,
+   "entry_price": 24390.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "8179.T",
+   "name": "ロイヤルホールディングス",
+   "grade": "B",
+   "type": "ブレイク",
+   "score": 53.4,
+   "entry_price": 1736.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "7552.T",
+   "name": "ハピネット",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 53.0,
+   "entry_price": 6770.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "6532.T",
+   "name": "ベイカレント",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 53.0,
+   "entry_price": 13315.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "7832.T",
+   "name": "バンダイナムコホールディングス",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 52.8,
+   "entry_price": 7410.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "7867.T",
+   "name": "タカラトミー",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 52.8,
+   "entry_price": 5386.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "6794.T",
+   "name": "フォスター電機",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 52.7,
+   "entry_price": 4430.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "3968.T",
+   "name": "セグエグループ",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 52.6,
+   "entry_price": 780.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "2705.T",
+   "name": "大戸屋ホールディングス",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 52.6,
+   "entry_price": 11240.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "7550.T",
+   "name": "ゼンショーホールディングス",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 52.4,
+   "entry_price": 13965.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "3932.T",
+   "name": "アカツキ",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 52.3,
+   "entry_price": 1459.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "4911.T",
+   "name": "資生堂",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 52.2,
+   "entry_price": 4332.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "2702.T",
+   "name": "日本マクドナルドホールディングス",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 52.2,
+   "entry_price": 10260.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "4347.T",
+   "name": "ブロードメディア",
+   "grade": "B",
+   "type": "ブレイク",
+   "score": 52.1,
+   "entry_price": 2494.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "4680.T",
+   "name": "ラウンドワン",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 52.0,
+   "entry_price": 1456.5,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "2501.T",
+   "name": "サッポロビール",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 51.9,
+   "entry_price": 2295.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "1980.T",
+   "name": "ダイダン",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 51.7,
+   "entry_price": 3140.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "4503.T",
+   "name": "アステラス製薬",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 51.6,
+   "entry_price": 2945.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "7747.T",
+   "name": "朝日インテック",
+   "grade": "B",
+   "type": "ブレイク",
+   "score": 51.4,
+   "entry_price": 4439.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "4523.T",
+   "name": "エーザイ",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 50.8,
+   "entry_price": 5631.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "8113.T",
+   "name": "ユニ・チャーム",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 50.7,
+   "entry_price": 1126.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "2587.T",
+   "name": "サントリービバレッジ＆フード",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 50.7,
+   "entry_price": 5468.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "6196.T",
+   "name": "ストライクグループ",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 50.7,
+   "entry_price": 1743.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "2264.T",
+   "name": "森永乳業",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 50.6,
+   "entry_price": 1224.5,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "3088.T",
+   "name": "マツキヨココカラ＆カンパニー",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 50.1,
+   "entry_price": 2995.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "8253.T",
+   "name": "クレディセゾン",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 49.2,
+   "entry_price": 4677.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "6989.T",
+   "name": "北陸電気工業",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 48.5,
+   "entry_price": 4165.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "3397.T",
+   "name": "トリドールホールディングス",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 47.6,
+   "entry_price": 5521.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "9983.T",
+   "name": "ファーストリテイリング",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 47.0,
+   "entry_price": 86170.0,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "2002.T",
+   "name": "日清製粉グループ本社",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 46.8,
+   "entry_price": 2424.5,
+   "ret_5d": null,
+   "ret_20d": null
+  },
+  {
+   "date": "2026-11-25",
+   "ticker": "4536.T",
+   "name": "参天製薬",
+   "grade": "B",
+   "type": "ベース形成",
+   "score": 45.9,
+   "entry_price": 2047.0,
    "ret_5d": null,
    "ret_20d": null
   }
