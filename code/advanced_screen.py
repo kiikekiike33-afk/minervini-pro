@@ -304,6 +304,57 @@ def sector_summary(cands: list[dict], sectors: dict[str, str]) -> list[dict]:
     return out[:10]
 
 
+def funnel_counts(metrics: list[dict], n_candidates: int) -> list[dict]:
+    """候補関門の段階別通過件数。select_candidates の関門を同じ順序・同じ条件で数える。
+
+    最終段の「候補」は select_candidates の実件数で、直前段と一致するのが正常。
+    ズレたら関門の定義がどちらかで変わったサインになる。
+    """
+    n_tt = n_rs = n_high = n_turnover = 0
+    for m in metrics:
+        if m["tt_pass"] < 6:
+            continue
+        n_tt += 1
+        if m["rs_pct"] < 80:
+            continue
+        n_rs += 1
+        if m["dist_high_pct"] < -25:
+            continue
+        n_high += 1
+        if m["turnover_oku"] < 3.0:
+            continue
+        n_turnover += 1
+    return [
+        {"stage": "全銘柄", "count": len(metrics)},
+        {"stage": "トレンドテンプレート 6/7以上", "count": n_tt},
+        {"stage": "RS 80以上", "count": n_rs},
+        {"stage": "52週高値から -25%以内", "count": n_high},
+        {"stage": "売買代金 3億円以上", "count": n_turnover},
+        {"stage": "候補", "count": n_candidates},
+    ]
+
+
+def sector_momentum(metrics: list[dict], sector_map: dict[str, str]) -> list[dict]:
+    """全銘柄の加重リターン (w_ret) を業種別に集計した中央値。
+
+    候補銘柄だけの集計 (sector_summary) と違い、ユニバース全体で業種の
+    強弱を見るためのもの。中央値は compute_regime と同じ上限中央値の流儀。
+    """
+    by_sector: dict[str, list[float]] = {}
+    for m in metrics:
+        by_sector.setdefault(sector_map.get(m["ticker"], "不明"), []).append(m["w_ret"])
+    out = []
+    for sec, vals in by_sector.items():
+        vals.sort()
+        out.append({
+            "sector": sec,
+            "count": len(vals),
+            "median_wret_pct": round(vals[len(vals) // 2], 2),
+        })
+    out.sort(key=lambda a: -a["median_wret_pct"])
+    return out
+
+
 def update_outcomes(asof: str, cands: list[dict], price_map: dict[str, float], base: Path) -> dict:
     """data/outcomes.json に当日候補を追記し、期日が来た過去候補のリターンを記入する。"""
     path = base / "outcomes.json"
@@ -355,8 +406,14 @@ def run_advanced_screening(asof: str) -> dict:
     regime = compute_regime(metrics)
     cands = select_candidates(metrics)
     enrich_earnings(cands, asof)
-    sectors = sector_summary(cands, fetch_sector_map())
-    payload = {"date": asof, "regime": regime, "sectors": sectors, "candidates": cands}
+    sector_map = fetch_sector_map()
+    sectors = sector_summary(cands, sector_map)
+    payload = {
+        "date": asof, "regime": regime, "sectors": sectors,
+        "funnel": funnel_counts(metrics, len(cands)),
+        "sector_momentum": sector_momentum(metrics, sector_map),
+        "candidates": cands,
+    }
     text = json.dumps(payload, ensure_ascii=False, indent=1, default=str)
     (base / "advanced_latest.json").write_text(text, encoding="utf-8")
     (base / "advanced_history" / f"{asof}.json").write_text(text, encoding="utf-8")
