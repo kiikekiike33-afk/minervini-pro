@@ -8,13 +8,22 @@
 #   ② 候補抽出: トレンドテンプレート (価格系7項目) >=6、
 #      IBD式加重リターンの全銘柄パーセンタイル >=80、
 #      52週高値から -25% 以内、20日平均売買代金 >=3億円
-#   ③ スコア: テンプレート30 + RS25 + 出来高15 + ベースの質15 +
-#      簡易ファンダ15 = 100点。S>=85 / A>=70 / B<70
-#   ④ ピボット (52週高値) と損切りライン (ピボット -8%) を付与
-#   ⑤ 業種 (JPX 33業種) 別の候補分布を集計
-#   ⑥ スコア70以上の候補には次回決算予定日 (yfinance) を付与
-#   ⑦ data/outcomes.json に候補を記録し、5営業日後/20営業日後の
-#      リターンを後続の実行で自動記入する (事後検証)
+#   ③ スコア: テンプレート35 + RS30 + 出来高20 + ベースの質15 = 100点。
+#      S>=85 / A>=70 / B<70。ファンダはスコアに入れず表示のみ
+#      (2026-11-28 改訂: バックテスト検証済み。旧配点は 30/25/15/15+ファンダ15)
+#   ④ ピボット2種を付与: 従来の52週高値ベース (pivot_price / stop_price) と、
+#      ベース右側の最終収縮高値ベースの pivot_v2 (直近5営業日を除く過去60営業日
+#      の高値の最大) / stop_v2 = max(pivot_v2 x 0.92, 直近10営業日の安値 x 0.99)
+#   ⑤ プール分類: A = ベース形成中 (終値 < pivot_v2)、
+#      B = ブレイク成立または買いゾーン内 (pivot_v2 〜 pivot_v2 x 1.05)、
+#      C = 伸びきり (終値 > pivot_v2 x 1.05、監視のみ)
+#   ⑥ 業種 (JPX 33業種) 別の候補分布を集計
+#   ⑦ スコア70以上の候補には次回決算予定日 (yfinance) を付与
+#   ⑧ data/outcomes.json に候補を記録し、5/20/40/60営業日後の絶対リターンと
+#      TOPIX連動ETF (1306.T) 比の超過リターン、保有期間中の MFE/MAE を
+#      後続の実行で自動記入する (事後検証)
+#   ⑨ 地合いにディストリビューション・デイ相当カウント (1306.T、
+#      直近25営業日窓) を併記する (表示のみ)
 #
 # 出力:
 #   data/advanced_latest.json / data/advanced_history/<date>.json
@@ -138,6 +147,13 @@ def _compute_one(t: str, name: str, df: pd.DataFrame, asof: str):
     base_close = close.iloc[-50:-5]
     base_depth = (float(base_close.max()) / float(base_close.min()) - 1) * 100
 
+    # pivot_v2: ベース右側の最終収縮高値 = 直近5営業日を除く過去60営業日の高値の最大
+    # (ブレイク判定の prior_max と同じ窓。高値ベース)
+    pivot_v2 = float(high.iloc[-65:-5].max())
+    # stop_v2: 構造的損切り。pivot_v2 の -8% と直近10営業日の安値の少し下の高い方。
+    # -8% が絶対上限 (pivot_v2 x 0.92 を下回ることはない)
+    stop_v2 = max(pivot_v2 * 0.92, float(low.tail(10).min()) * 0.99)
+
     return {
         "ticker": t,
         "name": name,
@@ -155,6 +171,8 @@ def _compute_one(t: str, name: str, df: pd.DataFrame, asof: str):
         "ext50_pct": round((p / sma50 - 1) * 100, 1),
         "pivot_price": round(hi52, 1),
         "stop_price": round(hi52 * 0.92, 1),
+        "pivot_v2": round(pivot_v2, 1),
+        "stop_v2": round(stop_v2, 1),
     }
 
 
@@ -217,35 +235,60 @@ def compute_regime(metrics: list[dict]) -> dict:
     }
 
 
+BENCH_TICKER = "1306.T"  # TOPIX連動ETF (超過リターンとDDカウントのベンチマーク)
+
+
+def fetch_benchmark(asof: str):
+    """1306.T の価格履歴を asof まで取得する。失敗時は None。"""
+    try:
+        start = (datetime.date.fromisoformat(asof) - datetime.timedelta(days=120)).isoformat()
+        end = (datetime.date.fromisoformat(asof) + datetime.timedelta(days=1)).isoformat()
+        df = yf.download(BENCH_TICKER, start=start, end=end, auto_adjust=False, progress=False)
+        if df is None or len(df) == 0:
+            return None
+        if isinstance(df.columns, pd.MultiIndex):
+            df.columns = df.columns.get_level_values(0)
+        return df.dropna(subset=["Close"])
+    except Exception as e:
+        logger.warning(f"ベンチマーク取得に失敗: {e}")
+        return None
+
+
+def distribution_days(bench, window: int = 25):
+    """ディストリビューション・デイ相当のカウント (表示のみ、地合い判定には使わない)。
+
+    1306.T が前日比 -0.2% 以下に下落し出来高が前日より多い日を、直近 window
+    営業日で数える。データ不足時は None。
+    """
+    if bench is None or len(bench) < window + 1:
+        return None
+    tail = bench.tail(window + 1)
+    chg = tail["Close"].pct_change()
+    vol_up = tail["Volume"] > tail["Volume"].shift(1)
+    return int(((chg <= -0.002) & vol_up).iloc[1:].sum())
+
+
 def _score(m: dict) -> float:
-    s = m["tt_pass"] / 7 * 30
-    s += m["rs_pct"] / 100 * 25
+    """総合スコア (2026-11-28 改訂配点): TT 35 + RS 30 + 出来高 20 + ベースの質 15。
+
+    ファンダメンタルズはスコアに入れない (表示のみ)。バックテスト
+    (2026-11-28、2独立実行で一致) で検証済みの配点。
+    """
+    s = m["tt_pass"] / 7 * 35
+    s += m["rs_pct"] / 100 * 30
     if m["breakout"]:
-        s += min(m["bo_vol_ratio"] or 0, 4) / 4 * 15
+        s += min(m["bo_vol_ratio"] or 0, 4) / 4 * 20
     else:
         d = m["dryup"] or 1.2
-        s += 12 if d <= 0.7 else (9 if d <= 0.85 else (6 if d <= 1.0 else 3))
+        s += 16 if d <= 0.7 else (12 if d <= 0.85 else (8 if d <= 1.0 else 4))
     base = 0.0
     c = m["contraction"] or 0
     base += 7.5 if c >= 1.15 else (4.0 if c >= 1.0 else 0.0)
     base += 7.5 if m["base_depth_pct"] <= 15 else (4.0 if m["base_depth_pct"] <= 25 else 0.0)
     s += base
-    f = 0.0
-    eg, rg, roe = m.get("eps_growth_q"), m.get("rev_growth"), m.get("roe")
-    if eg is not None:
-        if eg > 500 or eg < -90:
-            m["eps_flag"] = "異常値・要確認"
-            f += 3.5
-        else:
-            f += 7 if eg >= 25 else (4 if eg > 0 else 0)
-    if rg is not None:
-        f += 4 if rg >= 10 else (2 if rg > 0 else 0)
-    if roe is not None:
-        f += 4 if roe >= 17 else (2 if roe >= 10 else 0)
-    s += f
     if m["ext50_pct"] > 12:
         s -= 5
-    return round(s, 1)
+    return round(min(s, 100.0), 1)
 
 
 def select_candidates(metrics: list[dict]) -> list[dict]:
@@ -263,9 +306,23 @@ def select_candidates(metrics: list[dict]) -> list[dict]:
         except Exception:
             m["eps_growth_q"] = m["rev_growth"] = m["roe"] = None
     for m in cands:
+        # EPS成長の異常値は表示上の注意フラグとしてのみ付ける (スコアには入れない)
+        eg = m.get("eps_growth_q")
+        if eg is not None and (eg > 500 or eg < -90):
+            m["eps_flag"] = "異常値・要確認"
         m["score"] = _score(m)
         m["grade"] = "S" if m["score"] >= 85 else ("A" if m["score"] >= 70 else "B")
         m["type"] = "ブレイク" if m["breakout"] else "ベース形成"
+        # プール分類 (状態ラベル。Pool B を優遇する根拠はバックテストに無い)
+        # C (伸びきり) を最優先し、次に B (ブレイク成立 or 買いゾーン内)、残りが A
+        pv2 = m["pivot_v2"]
+        m["in_buy_zone"] = bool(pv2 <= m["price"] <= pv2 * 1.05)
+        if m["price"] > pv2 * 1.05:
+            m["pool"] = "C"
+        elif m["breakout"] or m["in_buy_zone"]:
+            m["pool"] = "B"
+        else:
+            m["pool"] = "A"
     cands.sort(key=lambda m: -m["score"])
     return cands
 
@@ -355,8 +412,15 @@ def sector_momentum(metrics: list[dict], sector_map: dict[str, str]) -> list[dic
     return out
 
 
-def update_outcomes(asof: str, cands: list[dict], price_map: dict[str, float], base: Path) -> dict:
-    """data/outcomes.json に当日候補を追記し、期日が来た過去候補のリターンを記入する。"""
+def update_outcomes(asof: str, cands: list[dict], price_map: dict[str, float], base: Path,
+                    bench_price: float | None = None) -> dict:
+    """data/outcomes.json に当日候補を追記し、期日が来た過去候補のリターンを記入する。
+
+    絶対リターン (ret_5d/20d/40d/60d) に加え、bench_entry (pick 日の 1306.T 終値)
+    がある pick には TOPIX 比の超過リターン (exc_*) も記入する。旧形式の pick
+    (bench_entry なし) は絶対リターンのみで後方互換。MFE/MAE は pick 後
+    60営業日まで日次で累積する。
+    """
     path = base / "outcomes.json"
     data = {"picks": []}
     if path.is_file():
@@ -375,7 +439,11 @@ def update_outcomes(asof: str, cands: list[dict], price_map: dict[str, float], b
         picks.append({
             "date": asof, "ticker": m["ticker"], "name": m["name"],
             "grade": m["grade"], "type": m["type"], "score": m["score"],
-            "entry_price": m["price"], "ret_5d": None, "ret_20d": None,
+            "pool": m.get("pool"), "pivot_v2": m.get("pivot_v2"), "stop_v2": m.get("stop_v2"),
+            "entry_price": m["price"], "bench_entry": bench_price,
+            "ret_5d": None, "ret_20d": None, "ret_40d": None, "ret_60d": None,
+            "exc_5d": None, "exc_20d": None, "exc_40d": None, "exc_60d": None,
+            "mfe_pct": None, "mae_pct": None,
         })
 
     for p in picks:
@@ -386,10 +454,21 @@ def update_outcomes(asof: str, cands: list[dict], price_map: dict[str, float], b
         if pick_d >= asof_d:
             continue
         bd = len(get_business_days(pick_d + datetime.timedelta(days=1), asof_d))
-        if p["ret_5d"] is None and bd >= 5:
-            p["ret_5d"] = round((cur / p["entry_price"] - 1) * 100, 2)
-        if p["ret_20d"] is None and bd >= 20:
-            p["ret_20d"] = round((cur / p["entry_price"] - 1) * 100, 2)
+        r = (cur / p["entry_price"] - 1) * 100
+        if bd <= 60:
+            prev_hi = p.get("mfe_pct")
+            prev_lo = p.get("mae_pct")
+            p["mfe_pct"] = round(max(prev_hi if prev_hi is not None else r, r), 2)
+            p["mae_pct"] = round(min(prev_lo if prev_lo is not None else r, r), 2)
+        bench_ret = None
+        if bench_price and p.get("bench_entry"):
+            bench_ret = (bench_price / p["bench_entry"] - 1) * 100
+        for days, rkey, ekey in ((5, "ret_5d", "exc_5d"), (20, "ret_20d", "exc_20d"),
+                                 (40, "ret_40d", "exc_40d"), (60, "ret_60d", "exc_60d")):
+            if p.get(rkey) is None and bd >= days:
+                p[rkey] = round(r, 2)
+                if bench_ret is not None:
+                    p[ekey] = round(r - bench_ret, 2)
 
     cutoff = (asof_d - datetime.timedelta(days=180)).isoformat()
     picks = [p for p in picks if p["date"] >= cutoff]
@@ -404,6 +483,9 @@ def run_advanced_screening(asof: str) -> dict:
     (base / "advanced_history").mkdir(parents=True, exist_ok=True)
     metrics = compute_universe(asof)
     regime = compute_regime(metrics)
+    bench = fetch_benchmark(asof)
+    bench_price = float(bench["Close"].iloc[-1]) if bench is not None and len(bench) else None
+    regime["dd_count_25d"] = distribution_days(bench)
     cands = select_candidates(metrics)
     enrich_earnings(cands, asof)
     sector_map = fetch_sector_map()
@@ -418,7 +500,7 @@ def run_advanced_screening(asof: str) -> dict:
     (base / "advanced_latest.json").write_text(text, encoding="utf-8")
     (base / "advanced_history" / f"{asof}.json").write_text(text, encoding="utf-8")
     price_map = {m["ticker"]: m["price"] for m in metrics}
-    update_outcomes(asof, cands, price_map, base)
+    update_outcomes(asof, cands, price_map, base, bench_price=bench_price)
     logger.info(f"高度スクリーニング完了: {asof} / 候補 {len(cands)} 件 / 地合い {regime['label']}")
     return payload
 
