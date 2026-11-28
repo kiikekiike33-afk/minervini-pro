@@ -21,7 +21,9 @@
 #   ⑦ スコア70以上の候補には次回決算予定日 (yfinance) を付与
 #   ⑧ data/outcomes.json に候補を記録し、5/20/40/60営業日後の絶対リターンと
 #      TOPIX連動ETF (1306.T) 比の超過リターン、保有期間中の MFE/MAE を
-#      後続の実行で自動記入する (事後検証)
+#      後続の実行で自動記入する (事後検証)。あわせて売り判定 (S3: ストップ /
+#      トレンド崩壊 / 分配 / 60営業日の時間) を日次評価し、売却が確定した
+#      pick には exit_* を記録する (2026-11-28 バックテストで採用検証済み)
 #   ⑨ 地合いにディストリビューション・デイ相当カウント (1306.T、
 #      直近25営業日窓) を併記する (表示のみ)
 #
@@ -444,6 +446,8 @@ def update_outcomes(asof: str, cands: list[dict], price_map: dict[str, float], b
             "ret_5d": None, "ret_20d": None, "ret_40d": None, "ret_60d": None,
             "exc_5d": None, "exc_20d": None, "exc_40d": None, "exc_60d": None,
             "mfe_pct": None, "mae_pct": None,
+            "exit_date": None, "exit_price": None, "exit_reason": None,
+            "exit_ret": None, "exit_exc": None,
         })
 
     for p in picks:
@@ -455,7 +459,7 @@ def update_outcomes(asof: str, cands: list[dict], price_map: dict[str, float], b
             continue
         bd = len(get_business_days(pick_d + datetime.timedelta(days=1), asof_d))
         r = (cur / p["entry_price"] - 1) * 100
-        if bd <= 60:
+        if bd <= 60 and not p.get("exit_date"):
             prev_hi = p.get("mfe_pct")
             prev_lo = p.get("mae_pct")
             p["mfe_pct"] = round(max(prev_hi if prev_hi is not None else r, r), 2)
@@ -476,6 +480,143 @@ def update_outcomes(asof: str, cands: list[dict], price_map: dict[str, float], b
     path.write_text(json.dumps(data, ensure_ascii=False, indent=1), encoding="utf-8")
     logger.info(f"outcomes.json 更新: 累計 {len(picks)} 件")
     return data
+
+
+def _walk_exit(df: pd.DataFrame, pick: dict):
+    """1銘柄の価格履歴で売り判定 (S3) を pick 日の翌営業日から走査する。
+
+    優先順位: ストップ → トレンド崩壊 → 分配 → 60営業日 (時間)。
+    売却が確定したら (exit_date, exit_price, exit_reason) を返し、
+    データの範囲内で未確定なら None を返す。定義はバックテスト
+    (backtest_sell) の検証済み実装と同一。
+    """
+    df = df.dropna(subset=["Close"]).sort_index()
+    dates = [d.date().isoformat() for d in df.index]
+    if pick["date"] not in dates:
+        return None
+    i0 = dates.index(pick["date"])
+    close = df["Close"]
+    entry = pick["entry_price"]
+    stop_v2 = pick["stop_v2"]
+    sma20 = close.rolling(20).mean()
+    sma50 = close.rolling(50).mean()
+    volavg20 = df["Volume"].rolling(20).mean()
+    chg = close.pct_change() * 100
+    rng = df["High"] - df["Low"]
+    low_pos = (close - df["Low"]) / rng.where(rng > 0)
+    dist = ((chg <= -2.0) & (df["Volume"] > df["Volume"].shift(1))
+            & (df["Volume"] >= 1.2 * volavg20) & (low_pos < 0.4)).fillna(False)
+
+    for day in range(1, 61):
+        j = i0 + day
+        if j >= len(df):
+            return None
+        c = float(close.iloc[j])
+        gain = (c / entry - 1) * 100
+        # 1) ストップ
+        if c < stop_v2:
+            return dates[j], round(c, 1), "ストップ"
+        # 2) トレンド崩壊 (含み益 +30%以上では参照線を 20日SMA に切替)
+        ref = sma20 if gain >= 30.0 else sma50
+        ref_j = ref.iloc[j]
+        if pd.notna(ref_j) and c < ref_j:
+            vol_ok = pd.notna(volavg20.iloc[j]) and float(df["Volume"].iloc[j]) >= 1.2 * float(volavg20.iloc[j])
+            ref_prev = ref.iloc[j - 1]
+            two_days = pd.notna(ref_prev) and float(close.iloc[j - 1]) < float(ref_prev)
+            if vol_ok or two_days:
+                return dates[j], round(c, 1), "トレンド崩壊"
+        # 3) 分配 (直近15営業日 = 当日を含む窓、保有期間内のみ)
+        lo = max(i0 + 1, j - 14)
+        cnt = int(dist.iloc[lo:j + 1].sum())
+        peak = float(close.iloc[i0:j + 1].max())
+        if cnt >= 3 and c <= peak * 0.95:
+            return dates[j], round(c, 1), "分配"
+        # 4) 時間 (60営業日)
+        if day == 60:
+            return dates[j], round(c, 1), "時間"
+    return None
+
+
+def evaluate_exits(asof: str, base: Path, bench=None) -> int:
+    """outcomes.json の未売却 pick に売り判定 (S3) を適用し、exit_* を記録する。
+
+    対象は stop_v2 を持つ pick (2026-11-30 以降の新形式) のみ。旧形式の
+    pick は従来の固定ホライズン記録のまま対象外。新規に売却が確定した
+    件数を返す。
+    """
+    path = base / "outcomes.json"
+    if not path.is_file():
+        return 0
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+    except Exception:
+        return 0
+    picks: list[dict] = data.get("picks", [])
+    open_picks = [p for p in picks
+                  if p.get("stop_v2") is not None and not p.get("exit_date")
+                  and p["date"] < asof]
+    if not open_picks:
+        return 0
+
+    tickers = sorted({p["ticker"] for p in open_picks})
+    earliest = min(p["date"] for p in open_picks)
+    start = (datetime.date.fromisoformat(earliest) - datetime.timedelta(days=130)).isoformat()
+    end = (datetime.date.fromisoformat(asof) + datetime.timedelta(days=1)).isoformat()
+    frames: dict[str, pd.DataFrame] = {}
+    for i in range(0, len(tickers), CHUNK):
+        batch = tickers[i:i + CHUNK]
+        try:
+            px = yf.download(batch, start=start, end=end, group_by="ticker",
+                             auto_adjust=False, progress=False, threads=True)
+        except Exception as e:
+            logger.warning(f"売り判定用ダウンロード失敗 (チャンク {i // CHUNK}): {e}")
+            continue
+        for t in batch:
+            try:
+                df = px[t] if t in px else None
+            except Exception:
+                df = None
+            if df is not None and len(df):
+                frames[t] = df
+
+    bench_close: dict[str, float] = {}
+    if bench is not None and len(bench):
+        for d, v in zip(bench.index, bench["Close"]):
+            bench_close[d.date().isoformat()] = float(v)
+
+    def bench_on(date_str: str):
+        if date_str in bench_close:
+            return bench_close[date_str]
+        prior = [d for d in bench_close if d <= date_str]
+        return bench_close[max(prior)] if prior else None
+
+    n_exit = 0
+    for p in open_picks:
+        df = frames.get(p["ticker"])
+        if df is None:
+            continue
+        hit = _walk_exit(df, p)
+        if not hit:
+            continue
+        exit_date, exit_price, reason = hit
+        if exit_date > asof:
+            continue
+        p["exit_date"] = exit_date
+        p["exit_price"] = exit_price
+        p["exit_reason"] = reason
+        p["exit_ret"] = round((exit_price / p["entry_price"] - 1) * 100, 2)
+        b0 = p.get("bench_entry") or bench_on(p["date"])
+        b1 = bench_on(exit_date)
+        p["exit_exc"] = (round(p["exit_ret"] - (b1 / b0 - 1) * 100, 2)
+                         if b0 and b1 else None)
+        n_exit += 1
+        logger.info(f"売り判定: {p['date']} {p['ticker']} {p['name']} → {reason} "
+                    f"({exit_date}, {p['exit_ret']:+.2f}%)")
+    if n_exit:
+        data["updated"] = asof
+        path.write_text(json.dumps(data, ensure_ascii=False, indent=1), encoding="utf-8")
+    logger.info(f"売り判定: 対象 {len(open_picks)} 件 / 新規売却 {n_exit} 件")
+    return n_exit
 
 
 def run_advanced_screening(asof: str) -> dict:
@@ -501,6 +642,7 @@ def run_advanced_screening(asof: str) -> dict:
     (base / "advanced_history" / f"{asof}.json").write_text(text, encoding="utf-8")
     price_map = {m["ticker"]: m["price"] for m in metrics}
     update_outcomes(asof, cands, price_map, base, bench_price=bench_price)
+    evaluate_exits(asof, base, bench=bench)
     logger.info(f"高度スクリーニング完了: {asof} / 候補 {len(cands)} 件 / 地合い {regime['label']}")
     return payload
 
